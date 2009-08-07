@@ -52,7 +52,6 @@ Task-Key: ubuntu-lxde
  * bluetooth
  * ppp
  * wvdial
- * gnome-ppp
 
 = Low level system plumbery =
 
@@ -68,9 +67,7 @@ Task-Key: ubuntu-lxde
  * alsa-utils   # basic audio support and mixer level handling
  * synaptic     # for our purposes, it's plumbing ...
 
- * ubuntu-mid-default-settings
  * usplash
-
  * acpi
  * acpid
  * acpi-support 
