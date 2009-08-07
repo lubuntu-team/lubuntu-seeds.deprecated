@@ -1,0 +1,4 @@
+include platform.karmic
+lubuntu: minimal
+
+
