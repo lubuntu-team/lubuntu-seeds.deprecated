@@ -9,6 +9,7 @@ Task-Key: ubuntu-lxde
 # This is just to get a seed definition started for testing.  This is not 
 # the final seed.
 
+ * Feature: no-follow-recommends
  * lxde
  * sysinfo
  * gdm
