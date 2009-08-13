@@ -12,7 +12,6 @@ Task-Key: ubuntu-lxde
  * lxde
  * sysinfo
  * gdm
- * synaptic
  * mirage
  * evince
  * sylpheed
@@ -68,11 +67,6 @@ Task-Key: ubuntu-lxde
  * synaptic     # for our purposes, it's plumbing ...
 
  * usplash
- * acpi
- * acpid
- * acpi-support 
-
- * grub # Work around lpia having DEB_HOST_ARCH_CPU=i686 (!)
 
 = Standard unix tools which we do need =
 
