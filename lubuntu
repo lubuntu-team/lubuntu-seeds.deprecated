@@ -15,13 +15,29 @@ Task-Key: ubuntu-lxde
  * gdm
  * mirage
  * evince
- * sylpheed
- * epiphany-gecko
- * xchat
- * transmission
  * leafpad
  * xscreensaver
  * language-pack-en
+
+== Internet ==
+
+ * firefox
+ * claws-mail
+ * pidgin
+ * transmission
+ * xchat
+
+
+== Multimedia ==
+
+ * cheese
+ * mplayer
+ * smplayer
+ * aqualung
+
+== Accessories == 
+ * galculator
+ * xfburn
 
 == Web browser plugins ==
 
@@ -52,6 +68,7 @@ Task-Key: ubuntu-lxde
  * bluetooth
  * ppp
  * wvdial
+ * pyneighborhood
 
 = Low level system plumbery =
 
