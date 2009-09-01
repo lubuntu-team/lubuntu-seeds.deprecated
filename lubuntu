@@ -11,9 +11,8 @@ Task-Key: ubuntu-lxde
 
  * Feature: no-follow-recommends
  * lxde
- * sysinfo
  * gdm
- * mirage
+ * gthumb
  * evince
  * leafpad
  * xscreensaver
@@ -53,7 +52,6 @@ Task-Key: ubuntu-lxde
 # Gstreamer bits explicitly seeded because they are parts of our
 # platform.
 
- * gstreamer0.10-alsa
  * gstreamer0.10-plugins-base
  * gstreamer0.10-plugins-good
  * gstreamer0.10-x
@@ -64,7 +62,7 @@ Task-Key: ubuntu-lxde
  * wireless-tools
  * wpasupplicant  # ScottJamesRemnant
  * network-manager-gnome
- * bluez-gnome
+ * gnome-bluetooth
  * bluetooth
  * ppp
  * wvdial
