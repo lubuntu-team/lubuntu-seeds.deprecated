@@ -2,7 +2,7 @@ Task-Per-Derivative: 1
 Task-Section: user
 Task-Description: Ubuntu LXDE Desktop
 Task-Extended-Description: This task provides the Ubuntu LXDE environment.
-Task-Key: ubuntu-lxde
+Task-Key: lubuntu
 
 = Lubuntu =
 
@@ -17,11 +17,12 @@ Task-Key: ubuntu-lxde
  * leafpad
  * xscreensaver
  * language-pack-en
+ * ubiquity-frontend-gtk
 
 == Internet ==
 
  * firefox
- * claws-mail
+ * sylpheed
  * pidgin
  * transmission
  * xchat
@@ -35,8 +36,10 @@ Task-Key: ubuntu-lxde
  * aqualung
 
 == Accessories == 
+
  * galculator
  * xfburn
+ * mtpaint
 
 == Web browser plugins ==
 
@@ -57,16 +60,22 @@ Task-Key: ubuntu-lxde
  * gstreamer0.10-x
  * gstreamer0.10-pulseaudio
 
+== Office ==
+
+ * abiword
+ * gnumeric
+ 
+
 == Networking ==
 
  * wireless-tools
  * wpasupplicant  # ScottJamesRemnant
- * network-manager-gnome
  * gnome-bluetooth
  * bluetooth
  * ppp
  * wvdial
  * pyneighborhood
+ * wicd
 
 = Low level system plumbery =
 
@@ -82,7 +91,6 @@ Task-Key: ubuntu-lxde
  * alsa-utils   # basic audio support and mixer level handling
  * synaptic     # for our purposes, it's plumbing ...
 
- * usplash
 
 = Standard unix tools which we do need =
 
