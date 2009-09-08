@@ -1,5 +1,5 @@
 include platform.karmic
 feature no-follow-recommends
-lubuntu: minimal
-
-
+desktop: minimal
+live: desktop
+ship-live: boot live
