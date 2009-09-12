@@ -10,7 +10,17 @@ Task-Key: lubuntu
 # the final seed.
 
  * Feature: no-follow-recommends
- * lxde
+ * lxde-core
+ * lxappearance
+ * lxinput
+ * lxsession-edit
+ * lxshortcut
+ * gpicview
+ * lxterminal
+ * xarchiver
+ * lxrandr
+ * obconf
+ * x11-utils
  * gdm
  * evince
  * leafpad
