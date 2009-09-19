@@ -40,8 +40,8 @@ Task-Key: lubuntu
 == Multimedia ==
 
  * cheese
- * mplayer
- * smplayer
+ * (mplayer)  # Recommends because they are
+ * (smplayer) # part of multiverse
  * aqualung
 
 == Accessories == 
