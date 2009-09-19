@@ -11,6 +11,7 @@ Task-Key: lubuntu
 
  * Feature: no-follow-recommends
  * lxde-core
+ * lxde-icon-theme
  * lxappearance
  * lxinput
  * lxsession-edit
