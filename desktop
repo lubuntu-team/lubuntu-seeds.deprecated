@@ -99,6 +99,7 @@ Task-Key: lubuntu
  * alsa-base    # proper hardware detection (hotplug/blacklist.d, modprobe.d)
  * alsa-utils   # basic audio support and mixer level handling
  * synaptic     # for our purposes, it's plumbing ...
+ * gksu		# To allow launching synaptic with the menu entry.
 
 
 = Standard unix tools which we do need =
