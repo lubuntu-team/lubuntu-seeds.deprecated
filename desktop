@@ -23,7 +23,6 @@ Task-Key: lubuntu
  * obconf
  * x11-utils
  * gdm
- * evince
  * leafpad
  * xscreensaver
  * language-pack-en
@@ -73,6 +72,7 @@ Task-Key: lubuntu
 
  * abiword
  * gnumeric
+ * epdfview
  
 
 == Networking ==
