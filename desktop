@@ -10,7 +10,12 @@ Task-Key: lubuntu
 # the final seed.
 
  * Feature: no-follow-recommends
- * lxde-core
+ * lubuntu-default-settings
+ * lubuntu-artwork
+ * pcmanfm
+ * lxpanel
+ * lxsession
+ * openbox
  * lxde-icon-theme
  * lxappearance
  * lxinput
