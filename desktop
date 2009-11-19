@@ -61,6 +61,8 @@ Task-Key: lubuntu
 = Desktopish and/or GNOMEish tools which we do need =
 
  * desktop-file-utils   # map MIME types to apps
+ * xdg-utils 		# to more mime support to Xarchiver
+ * xdg-user-dirs	# to add the Desktop directory in pcmanfm + standard directory
 
  * gnome-system-tools
  * gnome-power-manager
