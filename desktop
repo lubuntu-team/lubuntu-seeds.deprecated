@@ -68,14 +68,6 @@ Task-Key: lubuntu
  * gnome-system-tools
  * gnome-power-manager
 
-# Gstreamer bits explicitly seeded because they are parts of our
-# platform.
-
- * gstreamer0.10-plugins-base
- * gstreamer0.10-plugins-good
- * gstreamer0.10-x
- * gstreamer0.10-pulseaudio
-
 == Office ==
 
  * abiword
