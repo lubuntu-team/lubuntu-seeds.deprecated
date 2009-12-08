@@ -54,6 +54,9 @@ Task-Key: lubuntu
  * galculator
  * xfburn
  * mtpaint
+ * xfce4-taskmanager
+ * parcellite
+ * hardinfo
 
 == Web browser plugins ==
 
@@ -73,6 +76,7 @@ Task-Key: lubuntu
  * abiword
  * gnumeric
  * epdfview
+ * osmo
  
 
 == Networking ==
