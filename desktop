@@ -71,6 +71,8 @@ Task-Key: lubuntu
  * gnome-system-tools
  * gnome-power-manager
 
+ * language-selector
+
 == Office ==
 
  * abiword
@@ -104,6 +106,7 @@ Task-Key: lubuntu
  * alsa-utils   # basic audio support and mixer level handling
  * synaptic     # for our purposes, it's plumbing ...
  * gksu		# To allow launching synaptic with the menu entry.
+ * software-properties-gtk
 
 
 = Standard unix tools which we do need =
