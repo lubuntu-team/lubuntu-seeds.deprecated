@@ -27,7 +27,7 @@ Task-Key: lubuntu
  * lxrandr
  * obconf
  * x11-utils
- * gdm
+ * lxdm
  * leafpad
  * xscreensaver
  * language-pack-en
