@@ -57,10 +57,12 @@ Task-Key: lubuntu
  * xfce4-taskmanager
  * parcellite
  * hardinfo
+ * scrot
 
 == Web browser plugins ==
 
  * gnash
+ * mozilla-plugin-gnash
 
 = Desktopish and/or GNOMEish tools which we do need =
 
