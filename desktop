@@ -30,7 +30,6 @@ Task-Key: lubuntu
  * lxdm
  * leafpad
  * xscreensaver
- * language-pack-en
 
 == Internet ==
 
@@ -70,8 +69,7 @@ Task-Key: lubuntu
  * xdg-utils 		# to more mime support to Xarchiver
  * xdg-user-dirs	# to add the Desktop directory in pcmanfm + standard directory
 
- # Disable until bug 497441 is fixed.
- # * gnome-system-tools
+ * gnome-system-tools
 
  * gnome-power-manager
  * system-config-printer-gnome
