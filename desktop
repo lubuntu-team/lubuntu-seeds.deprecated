@@ -101,6 +101,7 @@ Task-Key: lubuntu
 
  * (powernowd) # loads modules to allow CPU frequency scaling (P states); LP: #268626
  * pm-utils # Add to support suspend in some case.
+ * pm-utils-powersave-policy
 
  * dbus-x11
 
