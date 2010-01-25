@@ -73,6 +73,7 @@ Task-Key: lubuntu
 
  * gnome-power-manager
  * system-config-printer-gnome
+ * cups-driver-gutenprint
  * language-selector
  * jockey-gtk
 
