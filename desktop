@@ -77,6 +77,8 @@ Task-Key: lubuntu
  * language-selector
  * jockey-gtk
 
+ * gstreamer0.10-ffmpeg	# for gnash support
+
 == Office ==
 
  * abiword
