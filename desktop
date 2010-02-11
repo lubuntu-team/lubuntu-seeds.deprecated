@@ -71,6 +71,7 @@ Task-Key: lubuntu
  * xdg-user-dirs	# to add the Desktop directory in pcmanfm + standard directory
 
  * gnome-system-tools
+ * ntp			# Add support for synchronisation with time servers
 
  * gnome-power-manager
  * system-config-printer-gnome
