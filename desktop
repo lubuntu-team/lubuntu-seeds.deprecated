@@ -93,7 +93,7 @@ Task-Key: lubuntu
  * ppp
  * wvdial
  * pyneighborhood
- * wicd
+ * network-manager-gnome
 
 = Low level system plumbery =
 
