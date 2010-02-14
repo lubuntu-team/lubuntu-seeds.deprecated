@@ -61,8 +61,6 @@ Task-Key: lubuntu
 
 == Web browser plugins ==
 
- * gnash
- * mozilla-plugin-gnash
 
 = Desktopish and/or GNOMEish tools which we do need =
 
@@ -78,8 +76,6 @@ Task-Key: lubuntu
  * cups-driver-gutenprint
  * language-selector
  * jockey-gtk
-
- * gstreamer0.10-ffmpeg	# for gnash support
 
 == Office ==
 
