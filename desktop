@@ -45,8 +45,8 @@ Task-Key: lubuntu
 == Multimedia ==
 
  * cheese
- * (mplayer)  # Recommends because they are
- * (smplayer) # part of multiverse
+ * mplayer
+ * gnome-mplayer
  * aqualung
 
 == Accessories == 
