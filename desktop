@@ -76,6 +76,7 @@ Task-Key: lubuntu
  * cups-driver-gutenprint
  * language-selector
  * jockey-gtk
+ * gdebi
 
 == Office ==
 
