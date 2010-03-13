@@ -1,0 +1,7 @@
+## GNOME component
+# gnome-panel enable theinstallation of gnome-docs with language selector
+gnome-panel
+# Installing gdm have some side effects, like launching when lxdm is working
+gdm
+# gnome-session don't work nicely with lxde-session
+gnome-session
