@@ -115,6 +115,13 @@ Task-Key: lubuntu
  * software-properties-gtk
 
 
+	
+Extra fonts (should be common, but not so for space reasons):
+
+ * ttf-wqy-microhei
+ * ttf-unfonts-core
+ * ttf-liberation
+
 = Standard unix tools which we do need =
 
 == Log rotation ==
