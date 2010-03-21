@@ -85,7 +85,11 @@ Task-Key: lubuntu
  * gnumeric
  * epdfview
  * osmo
- 
+
+== Archive support ==
+# Need because we don't install recommends for xarchiver
+ * zip
+ * unzip
 
 == Networking ==
 
