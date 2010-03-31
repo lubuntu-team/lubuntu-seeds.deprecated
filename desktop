@@ -111,6 +111,8 @@ Task-Key: lubuntu
  * pm-utils # Add to support suspend in some case.
  * pm-utils-powersave-policy
 
+ * policykit-desktop-privileges
+
  * dbus-x11
 
  * alsa-base    # proper hardware detection (hotplug/blacklist.d, modprobe.d)
