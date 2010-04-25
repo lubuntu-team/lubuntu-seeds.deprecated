@@ -3,3 +3,5 @@ feature no-follow-recommends
 desktop: desktop-common
 live: desktop
 ship-live: boot live
+# make sure supported remains the last entry
+supported: desktop ship-live supported-common
