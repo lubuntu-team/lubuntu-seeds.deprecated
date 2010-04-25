@@ -121,6 +121,7 @@ Task-Key: lubuntu
  * synaptic     # for our purposes, it's plumbing ...
  * gksu		# To allow launching synaptic with the menu entry.
  * software-properties-gtk
+ * apport-gtk # support for ubuntu-bug command
 
 
 	
