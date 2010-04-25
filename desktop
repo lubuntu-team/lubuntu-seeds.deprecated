@@ -35,6 +35,7 @@ Task-Key: lubuntu
 == Internet ==
 
  * chromium-browser
+ * chromium-browser-l10n
  * sylpheed
  * sylpheed-i18n
  * pidgin
