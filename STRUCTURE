@@ -1,6 +1,6 @@
 include platform.lucid
 feature no-follow-recommends
-desktop: desktop-common
+desktop: minimal
 live: desktop
 ship-live: boot live
 # make sure supported remains the last entry

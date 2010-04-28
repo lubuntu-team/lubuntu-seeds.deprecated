@@ -3,7 +3,6 @@ Task-Section: user
 Task-Description: Ubuntu LXDE Desktop
 Task-Extended-Description: This task provides the Ubuntu LXDE environment.
 Task-Key: lubuntu-desktop
-Task-Seeds: desktop-common
 
 = Lubuntu =
 
