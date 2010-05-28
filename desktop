@@ -108,6 +108,7 @@ Task-Key: lubuntu-desktop
  * wvdial
  * pyneighborhood
  * network-manager-gnome
+ * modemmanager # Add support for 3G modem
 
 = Low level system plumbery =
 
