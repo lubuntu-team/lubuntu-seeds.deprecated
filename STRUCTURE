@@ -1,4 +1,4 @@
-include platform.lucid
+include platform.maverick
 feature no-follow-recommends
 desktop: minimal
 live: desktop
