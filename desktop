@@ -4,16 +4,10 @@ Task-Description: Ubuntu LXDE Desktop
 Task-Extended-Description: This task provides the Ubuntu LXDE environment.
 Task-Key: lubuntu-desktop
 
-= Lubuntu =
-
  * Feature: no-follow-recommends
- * lubuntu-default-settings
- * lubuntu-artwork
- * lubuntu-plymouth-theme
- * pcmanfm
- * lxpanel
- * lxsession
- * openbox
+
+= Lxde =
+
  * lxappearance
  * lxinput
  * lxsession-edit
@@ -109,15 +103,11 @@ Task-Key: lubuntu-desktop
 
 = Low level system plumbery =
 
- * xorg         # this includes xserver-xorg->xserver-xorg-{input|video}-* (no need to add specific drivers manually)
-
  * (powernowd) # loads modules to allow CPU frequency scaling (P states); LP: #268626
  * pm-utils # Add to support suspend in some case.
  * pm-utils-powersave-policy
 
  * policykit-desktop-privileges
-
- * dbus-x11
 
  * alsa-base    # proper hardware detection (hotplug/blacklist.d, modprobe.d)
  * alsa-utils   # basic audio support and mixer level handling
