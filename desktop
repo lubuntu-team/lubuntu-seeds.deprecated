@@ -113,8 +113,6 @@ Task-Key: lubuntu-desktop
 = Low level system plumbery =
 
  * xorg         # this includes xserver-xorg->xserver-xorg-{input|video}-* (no need to add specific drivers manually)
- * xserver-xorg-input-all
- * (xserver-xorg-input-evtouch)
 
  * (powernowd) # loads modules to allow CPU frequency scaling (P states); LP: #268626
  * pm-utils # Add to support suspend in some case.
