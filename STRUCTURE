@@ -3,5 +3,6 @@ feature no-follow-recommends
 desktop: minimal
 live: desktop
 ship-live: boot live
+minimal: standart
 # make sure supported remains the last entry
-supported: desktop ship-live supported-common
+supported: desktop ship-live supported-common minimal
