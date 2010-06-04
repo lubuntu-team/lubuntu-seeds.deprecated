@@ -101,7 +101,6 @@ Task-Key: lubuntu-desktop
  * gnome-bluetooth
  * ppp
  * wvdial
- * pyneighborhood
  * network-manager-gnome
  * modemmanager # Add support for 3G modem
 
