@@ -5,6 +5,10 @@ Task-Extended-Description: This task provides the Ubuntu LXDE environment.
 Task-Key: lubuntu-desktop
 
  * Feature: no-follow-recommends
+ 
+= Lubuntu =
+
+ * lubuntu-core 
 
 = Lxde =
 
