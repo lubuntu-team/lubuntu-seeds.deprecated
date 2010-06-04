@@ -1,8 +1,8 @@
 include platform.maverick
 feature no-follow-recommends
-desktop: minimal
+desktop: core
 live: desktop
 ship-live: boot live
-minimal:
+core: minimal
 # make sure supported remains the last entry
-supported: desktop ship-live supported-common minimal
+supported: desktop ship-live supported-common core
