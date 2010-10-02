@@ -132,6 +132,7 @@ Task-Key: lubuntu-desktop
  * ttf-wqy-microhei
  * ttf-unfonts-core
  * ttf-liberation
+ * ttf-ubuntu-font-family
 
 = Standard unix tools which we do need =
 
