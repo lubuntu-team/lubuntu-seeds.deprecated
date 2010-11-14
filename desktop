@@ -64,6 +64,7 @@ Task-Key: lubuntu-desktop
  * xdg-utils 		# to more mime support to Xarchiver
  * xdg-user-dirs	# to add the Desktop directory in pcmanfm + standard directory
  * gvfs-fuse 		# for access of non gio applications to gvfs mounts
+ * gvfs-backends 	# for adding support for backends (photos, network etc ...) to gvfs
 
  * gnome-system-tools
  * ntp			# Add support for synchronisation with time servers
