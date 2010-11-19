@@ -13,6 +13,7 @@ Task-Key: lubuntu-desktop
 = Lxde =
 
  * lxappearance
+ * lxappearance-obconf
  * lxinput
  * lxsession-edit
  * lxshortcut
