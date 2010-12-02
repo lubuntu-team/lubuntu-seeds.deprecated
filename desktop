@@ -96,7 +96,8 @@ Task-Key: lubuntu-desktop
  * ace-of-penguins
 
 == Archive support ==
-# Need because we don't install recommends for xarchiver
+# Need because we don't install recommends for file-roller
+ * lzma
  * zip
  * unzip
 
