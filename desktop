@@ -81,9 +81,6 @@ Task-Key: lubuntu-desktop
 # Support for closed drivers installation
  * jockey-gtk
  * nvidia-common
- * fglrx-modaliases
- * bcmwl-modaliases
- 
 
 == Office ==
 
