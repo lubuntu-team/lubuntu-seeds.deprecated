@@ -108,7 +108,8 @@ Task-Key: lubuntu-desktop
  * ppp
  * wvdial
  * network-manager-gnome
- * modemmanager # Add support for 3G modem
+ * modemmanager     # Add support for 3G modem
+ * usb-modeswitch   #
 
 = Low level system plumbery =
 
