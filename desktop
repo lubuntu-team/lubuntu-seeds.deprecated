@@ -77,6 +77,7 @@ Task-Key: lubuntu-desktop
  * gdebi
  * gnome-disk-utility
  * simple-scan
+ * gnome-keyring
 
 # Support for closed drivers installation
  * jockey-gtk
