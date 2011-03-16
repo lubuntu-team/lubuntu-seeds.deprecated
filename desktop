@@ -72,6 +72,7 @@ Task-Key: lubuntu-desktop
  * gvfs-backends 	# for adding support for backends (photos, network etc ...) to gvfs
 
  * gnome-system-tools
+ * gnome-time-admin # Support for time configuration.
  * ntp			# Add support for synchronisation with time servers
 
  * gnome-power-manager
