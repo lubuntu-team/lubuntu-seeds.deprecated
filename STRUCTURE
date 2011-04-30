@@ -1,4 +1,4 @@
-include platform.natty
+include platform.oneiric
 feature no-follow-recommends
 desktop: core
 live: desktop
