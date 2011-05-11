@@ -7,9 +7,12 @@ Task-Key: ubiquity-frontend-gtk
 Task-Test-new-install: skip show
 
 == Languages support ==
-We should have enough space to include all langpacks
- * /^language-pack-[^-]+$/
- * /^aspell-[^-]+$/
+
+ * Languages: en es de fr ru pt it pl ja zh-hans nl xh cs bn hu sv fi ar el ca da hi tr	
+ * language-pack-${Languages}
+ * language-pack-gnome-${Languages}
+ * language-support-${Languages}
+ * aspell-${Languages}
 
  * gparted
 
@@ -18,5 +21,4 @@ We should have enough space to include all langpacks
 These packages make up the Ubiquity live installer.
 
  * ubiquity-frontend-gtk
- * ubiquity-ubuntu-artwork
- * python-webkit # Needed by ubiquity-frontend-gtk for ubiquity-slideshow.
+ * ubiquity-slideshow-lubuntu
