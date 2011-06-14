@@ -8,11 +8,11 @@ Task-Test-new-install: skip show
 
 == Languages support ==
 
- * Languages: en es de fr ru pt it pl ja zh-hans nl xh cs bn hu sv fi ar el ca da hi tr	
+ * Languages: aa af am an ar as ast az be ber bg bn bo br bs ca crh cs csb cy da de dv dz el en eo es et eu fa fi fil fo fr fur fy ga gl gu ha he hi hne hr hsb ht hu hy ia id ig is it ja ka kk km kn ko ks ku kw ky la lg li lo lt lv mai mg mi mk ml mn mr ms mt nan nb nds ne nl nn nso oc om or pa pap pl pt ro ru rw sa sc sd se shs si sk sl so sq sr ss st sv ta te tg ti th tk tl tlh tr ts tt ug uk ur uz ve vi wa wo xh yi yo zh-hans zu
  * language-pack-${Languages}
+
+ * Languages: en es de fr ru pt it pl ja zh-hans nl xh cs bn hu sv fi ar el ca da hi tr	
  * language-pack-gnome-${Languages}
- * language-support-${Languages}
- * aspell-${Languages}
 
  * gparted
 
@@ -22,3 +22,14 @@ These packages make up the Ubiquity live installer.
 
  * ubiquity-frontend-gtk
  * ubiquity-slideshow-lubuntu
+
+== Other ==
+
+ * pptp-linux
+ * ndiswrapper-utils-1.9
+ * ndisgtk
+ * linux-wlan-ng
+ * libatm1
+ * setserial
+ * b43-fwcutter
+ * linux-headers-generic
