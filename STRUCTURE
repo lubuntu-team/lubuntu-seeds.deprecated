@@ -3,6 +3,6 @@ feature no-follow-recommends
 desktop: core
 live: desktop
 ship-live: boot live
-core: minimal
+core: standard
 # make sure supported remains the last entry
 supported: desktop ship-live supported-common core
