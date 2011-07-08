@@ -23,7 +23,6 @@ Task-Key: lubuntu-desktop
  * lxrandr
  * obconf
  * x11-utils
- * lxdm
  * leafpad
  * xscreensaver
  * lxlauncher
@@ -83,6 +82,8 @@ Task-Key: lubuntu-desktop
  * simple-scan
  * gnome-keyring
  * lxkeymap
+ * lightdm
+ * lightdm-greeter-example-gtk
 
 # Support for closed drivers installation
  * jockey-gtk
