@@ -131,7 +131,7 @@ Task-Key: lubuntu-desktop
  * synaptic     # for our purposes, it's plumbing ...
  * update-notifier 	# For crash report and updates notifications
 
- * apport-gtk # support for ubuntu-bug command
+ * (apport-gtk) # support for ubuntu-bug command
 
  * pcmciautils # Support for PCMCIA cards.
  
