@@ -117,7 +117,6 @@ Task-Key: lubuntu-desktop
  * network-manager-gnome
  * modemmanager     # Add support for 3G modem
  * usb-modeswitch   #
- * mobile-broadband-provider-info # Add mobile informations
 
 = Low level system plumbery =
 
