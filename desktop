@@ -85,8 +85,8 @@ Task-Key: lubuntu-desktop
  * lightdm-greeter-example-gtk
 
 # Support for closed drivers installation
- * jockey-gtk
- * nvidia-common
+ * (jockey-gtk)
+ * (nvidia-common)
 
 == Office ==
 
