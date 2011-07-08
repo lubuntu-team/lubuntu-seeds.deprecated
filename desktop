@@ -56,7 +56,7 @@ Task-Key: lubuntu-desktop
  * hardinfo
  * scrot
  * gucharmap
- * guvcview
+ * (guvcview)
 
 == Web browser plugins ==
  * (gecko-mediaplayer)
