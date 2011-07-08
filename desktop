@@ -78,7 +78,7 @@ Task-Key: lubuntu-desktop
  * language-selector-gnome
  * gdebi
  * gnome-disk-utility
- * simple-scan
+ * (simple-scan)
  * gnome-keyring
  * lxkeymap
  * lightdm
