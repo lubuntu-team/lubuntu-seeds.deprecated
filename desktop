@@ -143,11 +143,3 @@ Task-Key: lubuntu-desktop
  * (ttf-takao-pgothic)
  * (ttf-thai-tlwg)
 
-= Standard unix tools which we do need =
-
-== Log rotation ==
-
- * logrotate
- * cron
- * anacron
-
