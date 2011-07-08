@@ -32,10 +32,10 @@ Task-Key: lubuntu-desktop
 
  * chromium-browser
  * chromium-browser-l10n
- * sylpheed
- * sylpheed-i18n
- * sylpheed-plugins
- * sylpheed-doc
+ * (sylpheed)
+ * (sylpheed-i18n)
+ * (sylpheed-plugins)
+ * (sylpheed-doc)
  * (pidgin)
  * (transmission)
 
