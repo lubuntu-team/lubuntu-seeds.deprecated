@@ -101,11 +101,10 @@ Task-Key: lubuntu-desktop
  * ace-of-penguins
 
 == Archive support ==
-# Need because we don't install recommends for file-roller
- * lzma
 # Add more type of archive support
  * zip
  * unzip
+ * lzma
 
 == Networking ==
 
