@@ -112,7 +112,6 @@ Task-Key: lubuntu-desktop
  * wireless-tools
  * wpasupplicant  # ScottJamesRemnant
  * gnome-bluetooth
- * ppp
  * wvdial
  * network-manager-gnome
 
