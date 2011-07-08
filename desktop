@@ -130,8 +130,7 @@ Task-Key: lubuntu-desktop
  * alsa-utils   # basic audio support and mixer level handling
  * synaptic     # for our purposes, it's plumbing ...
  * update-notifier 	# For crash report and updates notifications
- * gksu		# To allow launching synaptic with the menu entry.
- * software-properties-gtk
+
  * apport-gtk # support for ubuntu-bug command
 
  * pcmciautils # Support for PCMCIA cards.
