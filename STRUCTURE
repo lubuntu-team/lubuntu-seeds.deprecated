@@ -2,6 +2,7 @@ include platform.oneiric
 feature no-follow-recommends
 desktop: core
 live: desktop
+ship: boot installer desktop d-i-requirements
 ship-live: boot live
 core: standard
 # make sure supported remains the last entry
