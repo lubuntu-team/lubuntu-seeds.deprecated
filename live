@@ -8,10 +8,10 @@ Task-Test-new-install: skip show
 
 == Languages support ==
 
- * Languages: en es de fr ru pt it pl ja zh-hans nl xh cs bn hu sv fi ar el ca da hi tr 
+ * Languages: en es de fr ru pt it pl ja zh-hans
  * language-pack-${Languages}
 
- * Languages: en es de fr ru pt it pl ja zh-hans nl xh cs bn hu sv fi ar el ca da hi tr	
+ * Languages: en es de fr ru pt it pl ja zh-hans
  * language-pack-gnome-${Languages}
 
  * gparted
