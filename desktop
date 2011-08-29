@@ -143,3 +143,6 @@ Task-Key: lubuntu-desktop
  * (ttf-takao-pgothic)
  * (ttf-thai-tlwg)
 
+= Other =
+ * lubuntu-desktop # metapackage for everything here
+

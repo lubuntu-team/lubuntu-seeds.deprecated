@@ -24,3 +24,7 @@ Task-Key: lubuntu-core
 
  * xorg         # this includes xserver-xorg->xserver-xorg-{input|video}-* (no need to add specific drivers manually)
  * dbus-x11
+
+= Other =
+
+ * lubuntu-core # metapackage for everything here 
