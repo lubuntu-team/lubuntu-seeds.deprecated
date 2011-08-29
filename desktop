@@ -17,9 +17,9 @@ Task-Key: lubuntu-desktop
  * (lxinput)
  * (lxsession-edit)
  * (lxshortcut)
- * gpicview
+ * (gpicview)
  * lxterminal
- * file-roller
+ * (file-roller)
  * (lxrandr)
  * (obconf)
  * x11-utils
@@ -53,7 +53,7 @@ Task-Key: lubuntu-desktop
  * (mtpaint)
  * (lxtask)
  * (hardinfo)
- * scrot
+ * (scrot)
  * (gucharmap)
  * (guvcview)
 
@@ -67,19 +67,19 @@ Task-Key: lubuntu-desktop
  * gvfs-fuse 		# for access of non gio applications to gvfs mounts
  * gvfs-backends 	# for adding support for backends (photos, network etc ...) to gvfs
 
- * gnome-system-tools
+ * (gnome-system-tools)
  * (gnome-time-admin) # Support for time configuration.
  * (ntp)			# Add support for synchronisation with time servers
 
- * xfce4-power-manager
- * system-config-printer-gnome
- * cups-driver-gutenprint
- * language-selector-gnome
- * gdebi
+ * (xfce4-power-manager)
+ * (system-config-printer-gnome)
+ * (cups-driver-gutenprint)
+ * (language-selector-gnome)
+ * (gdebi)
  * (gnome-disk-utility)
  * (simple-scan)
- * gnome-keyring
- * lxkeymap
+ * (gnome-keyring)
+ * (lxkeymap)
  * lxdm
 
 # Support for closed drivers installation
@@ -90,7 +90,7 @@ Task-Key: lubuntu-desktop
 
  * (abiword)
  * (gnumeric)
- * evince
+ * (evince)
  * (osmo)
  * (xpad)
 
@@ -107,9 +107,9 @@ Task-Key: lubuntu-desktop
 
  * wireless-tools
  * wpasupplicant  # ScottJamesRemnant
- * gnome-bluetooth
+ * (gnome-bluetooth)
  * wvdial
- * network-manager-gnome
+ * (network-manager-gnome)
 
 = Low level system plumbery =
 
