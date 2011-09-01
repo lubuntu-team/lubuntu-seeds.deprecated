@@ -35,9 +35,3 @@ These packages are needed in order to build Ubuntu packages.
 
  * lupin-support # installer-for-windows
  * ubiquity-frontend-gtk
-
-== Blacklist ==
-
-libavcodec cannot be shipped on CDs (c.f. Ubuntu technical board resolution 2007-01-02).
-
- * !libavcodec*
