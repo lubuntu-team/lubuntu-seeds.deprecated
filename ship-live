@@ -34,4 +34,5 @@ These packages are needed in order to build Ubuntu packages.
 == Installer ==
 
  * lupin-support # installer-for-windows
+ * oem-config-gtk
  * ubiquity-frontend-gtk
