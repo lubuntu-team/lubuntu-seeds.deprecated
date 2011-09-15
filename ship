@@ -37,22 +37,18 @@
 == Common language packs ==
 
  # must have
- * Languages: en es xh pt
+ * Languages: en es de fr ru pt it pl ja zh-hans nl xh cs bn hu hi ar
  * language-pack-${Languages}
  * language-pack-gnome-${Languages}
+
+Enough room on amd64 armel i386, not enough on powerpc:
+ * Languages: sv fi el ca da tr
+ * language-pack-${Languages} [!powerpc]
+ * language-pack-gnome-${Languages} [!powerpc]
 
 # subset of English language support which we want by default:
  * aspell-en
  * wamerican
-
-Enough room on amd64 armel i386, not enough on powerpc:
- * Languages: de fr bn hi zh-hans
- * language-pack-${Languages} [!powerpc]
- * language-pack-gnome-${Languages} [!powerpc]
-
- * Languages: ar ru ja
- * language-pack-${Languages} [i386]
- * language-pack-gnome-${Languages} [i386]
 
 == Installer ==
 
