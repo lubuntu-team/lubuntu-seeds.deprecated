@@ -63,3 +63,6 @@ Exclude some KDE-specific pieces:
  * Extra-Exclude: python-qtext-dbg
  * Extra-Exclude: qt-x11-free-dbg
 
+Exclude specific packages
+
+ * Extra-Exclude: apt-xapian-index # See lp:798437
