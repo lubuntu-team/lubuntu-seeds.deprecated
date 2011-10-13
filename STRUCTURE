@@ -1,4 +1,4 @@
-include platform.oneiric
+include platform.precise
 feature no-follow-recommends
 desktop: core
 live: desktop
