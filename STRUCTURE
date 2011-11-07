@@ -1,9 +1,9 @@
 include platform.precise
 feature no-follow-recommends
-desktop: core desktop-common
+desktop: core
 live: desktop
 ship: boot installer desktop d-i-requirements
 ship-live: boot live
-core: standard
+core: desktop-common
 # make sure supported remains the last entry
 supported: desktop ship-live supported-common core
