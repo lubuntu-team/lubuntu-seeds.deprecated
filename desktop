@@ -85,7 +85,6 @@ Task-Key: lubuntu-desktop
 
 # Support for closed drivers installation
  * (jockey-gtk)
- * (nvidia-common)
 
 == Office ==
 
@@ -100,14 +99,10 @@ Task-Key: lubuntu-desktop
 
 == Archive support ==
 # Add more type of archive support
- * (zip)
- * (unzip)
  * (lzma)
 
 == Networking ==
 
- * wireless-tools
- * wpasupplicant  # ScottJamesRemnant
  * (gnome-bluetooth)
  * wvdial
  * (network-manager-gnome)
@@ -116,20 +111,11 @@ Task-Key: lubuntu-desktop
 
  * (powernowd) # loads modules to allow CPU frequency scaling (P states); LP: #268626
  * pm-utils # Add to support suspend in some case.
-
- * policykit-desktop-privileges
-
- * alsa-base    # proper hardware detection (hotplug/blacklist.d, modprobe.d)
- * alsa-utils   # basic audio support and mixer level handling
  * synaptic     # for our purposes, it's plumbing ...
  * (software-properties-gtk) # Nice GUI to change reporsitory settings
  * update-notifier 	# For crash report and updates notifications
 
  * (apport-gtk) # support for ubuntu-bug command
-
- * pcmciautils # Support for PCMCIA cards.
- 
- * ubuntu-extras-keyring #Keyring for extras archive
 
 = Drivers =
 
@@ -145,14 +131,6 @@ listed. See bug #858279.
  * (ttf-wqy-microhei)
  * (ttf-unfonts-core)
  * (ttf-liberation)
- * (ttf-ubuntu-font-family)
- * (ttf-indic-fonts-core)
- * (ttf-kacst-one)
- * (ttf-khmeros-core)
- * (ttf-lao)
- * (ttf-punjabi-fonts)
- * (ttf-takao-pgothic)
- * (ttf-thai-tlwg)
 
 = Other =
  * lubuntu-desktop # metapackage for everything here

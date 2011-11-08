@@ -23,7 +23,6 @@ Task-Seeds: desktop-common
  
 = Other needed packages =
 
- * xorg         # this includes xserver-xorg->xserver-xorg-{input|video}-* (no need to add specific drivers manually)
  * dbus-x11
 
 = Other =
