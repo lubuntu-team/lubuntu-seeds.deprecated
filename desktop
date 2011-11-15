@@ -131,8 +131,8 @@ listed. See bug #858279.
 = Extra fonts (should be common, but not so for space reasons): =
 
  * (ttf-wqy-microhei)
- * (ttf-unfonts-core)
- * (ttf-liberation)
+ * (fonts-nanum)
+ * (fonts-liberation)
 
 = Other =
  * lubuntu-desktop # metapackage for everything here
