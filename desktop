@@ -103,7 +103,6 @@ Task-Key: lubuntu-desktop
 
 == Networking ==
 
- * (gnome-bluetooth)
  * wvdial
  * (network-manager-gnome)
 
@@ -115,7 +114,7 @@ Task-Key: lubuntu-desktop
  * (software-properties-gtk) # Nice GUI to change reporsitory settings
  * update-notifier 	# For crash report and updates notifications
 
- *(ibus) 		# For changing input method LP: #889384
+ * (ibus) 		# For changing input method LP: #889384
 
  * (apport-gtk) # support for ubuntu-bug command
 
