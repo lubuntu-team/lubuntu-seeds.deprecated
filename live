@@ -35,4 +35,3 @@ These packages make up the Ubiquity live installer.
  * libatm1
  * setserial
  * b43-fwcutter
- * linux-headers-generic
