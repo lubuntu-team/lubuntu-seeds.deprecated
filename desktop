@@ -113,6 +113,7 @@ Task-Key: lubuntu-desktop
  * synaptic     # for our purposes, it's plumbing ...
  * (software-properties-gtk) # Nice GUI to change reporsitory settings
  * update-notifier 	# For crash report and updates notifications
+ * lubuntu-software-center
 
  * (ibus) 		# For changing input method LP: #889384
  * (im-switch)  # and LP: #908762
