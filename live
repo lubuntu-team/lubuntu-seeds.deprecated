@@ -8,13 +8,9 @@ Task-Test-new-install: skip show
 
 == Languages support ==
 
- * Languages: en es de fr ru pt it pl ja zh-hans nl xh
+ * Languages: en es de fr
  * language-pack-${Languages}
  * language-pack-gnome-${Languages}
-
- * Languages: cs bn hu hi ar sv fi el
- * language-pack-${Languages} [!powerpc]
- * language-pack-gnome-${Languages} [!powerpc]
 
  * gparted
  * jfsutils #see bug 794541
