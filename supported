@@ -67,3 +67,4 @@ Exclude specific packages
 
  * Extra-Exclude: apt-xapian-index # See lp:798437
  * Extra-Exclude: firefox-locale-* # See lp:820056
+ * Extra-Exclude: unity-greeter
