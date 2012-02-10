@@ -24,6 +24,8 @@ Task-Seeds: desktop-common
 = Other needed packages =
 
  * dbus-x11
+ * lightdm
+ * lightdm-gtk-greeter
 
 = Other =
 

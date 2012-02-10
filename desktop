@@ -80,8 +80,6 @@ Task-Key: lubuntu-desktop
  * (simple-scan)
  * (gnome-keyring)
  * (lxkeymap)
- * lightdm
- * lightdm-gtk-greeter
 
 # Support for closed drivers installation
  * (jockey-gtk)
