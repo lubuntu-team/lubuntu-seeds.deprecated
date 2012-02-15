@@ -5,3 +5,10 @@ gnome-panel
 gdm
 # gnome-session don't work nicely with lxde-session
 gnome-session
+## Specific packages
+# High CPU usage, see lp:798437
+apt-xapian-index
+# Bring part of gnome and unity
+unity-greeter
+# We don't use firefox, see lp:820056
+#firefox-locale-*
