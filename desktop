@@ -80,6 +80,7 @@ Task-Key: lubuntu-desktop
  * (simple-scan)
  * (gnome-keyring)
  * (lxkeymap)
+ * (blueman)
 
 # Support for closed drivers installation
  * (jockey-gtk)
