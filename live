@@ -8,11 +8,11 @@ Task-Test-new-install: skip show
 
 == Languages support ==
 
- * Languages: en es de fr ru pt it pl ja zh-hans nl xh cs bn hu hi ar
+ * Languages: en es de fr ru pt it pl ja nl xh cs zh-hans hu bn sv ar    
  * language-pack-${Languages}
  * language-pack-gnome-${Languages}
 
- * Languages: sv fi el ca da tr
+ * Languages: fi hi el ca da hi uk tr
  * language-pack-${Languages} [!powerpc]
  * language-pack-gnome-${Languages} [!powerpc]
 
