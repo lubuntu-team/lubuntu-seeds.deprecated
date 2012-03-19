@@ -126,7 +126,7 @@ Task-Key: lubuntu-desktop
 Adding linux header because ubiquity doesn't install them correctly if it's not
 listed. See bug #858279.
 
- * (linux-headers-generic-pae) [i386]	
+ * (linux-headers-generic) [i386]
  * (linux-headers-generic) [amd64]	
  * (linux-headers-dove) [armel]
 	
