@@ -110,6 +110,7 @@ Task-Key: lubuntu-desktop
 
 = Low level system plumbery =
 
+ * (xterm) # For fake mixer support in lxpanel (LP: #957749)
  * (powernowd) # loads modules to allow CPU frequency scaling (P states); LP: #268626
  * pm-utils # Add to support suspend in some case.
  * synaptic     # for our purposes, it's plumbing ...
