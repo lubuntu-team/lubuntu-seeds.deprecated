@@ -9,7 +9,7 @@
  * ltsp-server-standalone [amd64 i386] # for LTSP-on-install
  * ltsp-client [amd64 i386]            # for LTSP-on-install
  * ldm [amd64 i386] # seeded because its not a hard dependency of ltsp-client anymore
- * ldm-ubuntu-theme [amd64 i386] # seeded to make it available for LTSP-on-install
+ * ldm-lubuntu-theme [amd64 i386] # seeded to make it available for LTSP-on-install
 
 == Networking ==
 
