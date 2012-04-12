@@ -108,8 +108,8 @@ Task-Key: lubuntu-desktop
  * wvdial
  * (network-manager-gnome)
  * (modemmanager) # Add support for mobile modem LP: #967132
- * (mobile-broadband-provider-info) LP: #975139
- * (usb-modeswitch) LP: #979304
+ * (mobile-broadband-provider-info) # LP: #975139
+ * (usb-modeswitch) # LP: #979304
 
 = Low level system plumbery =
 
