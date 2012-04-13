@@ -43,8 +43,8 @@ Task-Key: lubuntu-desktop
 == Multimedia ==
 
  * (gnome-mplayer)
- * (audacious) [!armel]
- * (audacious-plugins) [!armel]
+ * (audacious) [!armel !armhf]
+ * (audacious-plugins) [!armel !armhf]
 
 == Accessories == 
 
