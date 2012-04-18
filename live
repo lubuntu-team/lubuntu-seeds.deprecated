@@ -12,7 +12,7 @@ Task-Test-new-install: skip show
  * language-pack-${Languages}
  * language-pack-gnome-${Languages}
 
- * Languages: fi hi el ca da hi uk tr
+ * Languages: fi hi el ca da hi uk tr aa sk nb ko ro bg he eu
  * language-pack-${Languages} [!powerpc]
  * language-pack-gnome-${Languages} [!powerpc]
 
