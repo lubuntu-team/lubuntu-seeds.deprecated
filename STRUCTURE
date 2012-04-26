@@ -1,4 +1,4 @@
-include platform.precise
+include platform.quantal
 feature no-follow-recommends
 core: desktop-common
 desktop: core
