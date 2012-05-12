@@ -83,6 +83,8 @@ Task-Key: lubuntu-desktop
  * (lxkeymap)
  * (blueman)
 
+ * gnome-icon-theme-symbolic # Complete lubuntu-artwork for missing generic icons links.
+
 # Support for closed drivers installation
  * (jockey-gtk)
 
