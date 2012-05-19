@@ -85,6 +85,8 @@ Task-Key: lubuntu-desktop
 
  * gnome-icon-theme-symbolic # Complete lubuntu-artwork for missing generic icons links.
 
+ * libgtk2-perl # Add GTK interface for synaptic (LP: #926581)
+
 # Support for closed drivers installation
  * (jockey-gtk)
 
