@@ -12,53 +12,53 @@ Task-Key: lubuntu-desktop
 
 = Lxde =
 
- * (lxappearance)
- * (lxappearance-obconf)
- * (lxinput)
- * (lxsession-edit)
- * (lxshortcut)
- * (gpicview)
+ * lxappearance
+ * lxappearance-obconf
+ * lxinput
+ * lxsession-edit
+ * lxshortcut
+ * gpicview
  * lxterminal
- * (file-roller)
- * (lxrandr)
- * (obconf)
+ * file-roller
+ * lxrandr
+ * obconf
  * x11-utils
  * leafpad
- * (xscreensaver)
+ * xscreensaver
  * lxlauncher
- * (lxpanel-indicator-applet-plugin)
+ * lxpanel-indicator-applet-plugin
 
 == Internet ==
 
- * (chromium-browser)
- * (sylpheed)
- * (sylpheed-i18n)
- * (sylpheed-plugins)
- * (sylpheed-doc)
- * (pidgin)
- * (pidgin-microblog)
- * (transmission)
+ * chromium-browser
+ * sylpheed
+ * sylpheed-i18n
+ * sylpheed-plugins
+ * sylpheed-doc
+ * pidgin
+ * pidgin-microblog
+ * transmission
 
 
 == Multimedia ==
 
- * (gnome-mplayer)
- * (audacious)
- * (audacious-plugins)
+ * gnome-mplayer
+ * audacious
+ * audacious-plugins
 
 == Accessories == 
 
- * (galculator)
- * (xfburn)
- * (mtpaint)
- * (lxtask)
- * (hardinfo)
- * (scrot)
- * (gucharmap)
- * (guvcview)
+ * galculator
+ * xfburn
+ * mtpaint
+ * lxtask
+ * hardinfo
+ * scrot
+ * gucharmap
+ * guvcview
 
 == Web browser plugins ==
- * (gecko-mediaplayer)
+ * gecko-mediaplayer
 
 = Desktopish and/or GNOMEish tools which we do need =
 
@@ -68,82 +68,82 @@ Task-Key: lubuntu-desktop
  * gvfs-fuse 		# for access of non gio applications to gvfs mounts
  * gvfs-backends 	# for adding support for backends (photos, network etc ...) to gvfs
 
- * (gnome-system-tools)
- * (gnome-time-admin) # Support for time configuration.
- * (ntp)			# Add support for synchronisation with time servers
+ * gnome-system-tools
+ * gnome-time-admin # Support for time configuration.
+ * ntp			# Add support for synchronisation with time servers
 
- * (xfce4-power-manager)
- * (system-config-printer-gnome)
- * (cups-driver-gutenprint)
- * (language-selector-gnome)
- * (gdebi)
- * (gnome-disk-utility)
- * (simple-scan)
- * (gnome-keyring)
- * (lxkeymap)
- * (blueman)
+ * xfce4-power-manager
+ * system-config-printer-gnome
+ * cups-driver-gutenprint
+ * language-selector-gnome
+ * gdebi
+ * gnome-disk-utility
+ * simple-scan
+ * gnome-keyring
+ * lxkeymap
+ * blueman
 
  * gnome-icon-theme-symbolic # Complete lubuntu-artwork for missing generic icons links.
 
  * libgtk2-perl # Add GTK interface for synaptic (LP: #926581)
 
 # Support for closed drivers installation
- * (jockey-gtk)
+ * jockey-gtk
 
 == Office ==
 
- * (abiword)
- * (gnumeric)
- * (evince)
- * (osmo)
- * (xpad)
+ * abiword
+ * gnumeric
+ * evince
+ * osmo
+ * xpad
 
 == Games ==
- * (ace-of-penguins)
+ * ace-of-penguins
 
 == Archive support ==
 # Add more type of archive support
- * (xz-utils)
+ * xz-utils
 
 == Artwork and Look & Feel ==
- * (dmz-cursor-theme) # LP: #923344
+ * dmz-cursor-theme # LP: #923344
 
 == Networking ==
 
  * wvdial
- * (network-manager-gnome)
- * (modemmanager) # Add support for mobile modem LP: #967132
- * (mobile-broadband-provider-info) # LP: #975139
- * (usb-modeswitch) # LP: #979304
+ * network-manager-gnome
+ * modemmanager # Add support for mobile modem LP: #967132
+ * mobile-broadband-provider-info # LP: #975139
+ * usb-modeswitch # LP: #979304
 
 = Low level system plumbery =
 
- * (xterm) # For fake mixer support in lxpanel (LP: #957749)
- * (powernowd) # loads modules to allow CPU frequency scaling (P states); LP: #268626
+ * xterm # For fake mixer support in lxpanel (LP: #957749)
+ * powernowd # loads modules to allow CPU frequency scaling (P states); LP: #268626
  * pm-utils # Add to support suspend in some case.
  * synaptic     # for our purposes, it's plumbing ...
- * (software-properties-gtk) # Nice GUI to change reporsitory settings
+ * software-properties-gtk # Nice GUI to change reporsitory settings
  * update-notifier 	# For crash report and updates notifications
  * lubuntu-software-center
 
- * (ibus) 		# For changing input method LP: #889384
+ * ibus 		# For changing input method LP: #889384
 
- * (apport-gtk) # support for ubuntu-bug command
+ * apport-gtk # support for ubuntu-bug command
 
 = Drivers =
 
 Adding linux header because ubiquity doesn't install them correctly if it's not
 listed. See bug #858279.
 
- * (linux-headers-generic) [i386]
- * (linux-headers-generic) [amd64]	
- * (linux-headers-dove) [armel]
+ * linux-headers-generic [i386]
+ * linux-headers-generic [amd64]	
+ * linux-headers-dove [armel]
 	
 = Extra fonts (should be common, but not so for space reasons): =
 
- * (ttf-wqy-microhei)
- * (fonts-nanum)
- * (fonts-liberation)
+ * ttf-wqy-microhei
+ * fonts-nanum
+ * fonts-liberation
 
 = Other =
  * lubuntu-desktop # metapackage for everything here
