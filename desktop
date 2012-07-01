@@ -84,6 +84,7 @@ Task-Key: lubuntu-desktop
  * lxkeymap
  * blueman
  * xfce4-notifyd    # Replacement for notification-daemon
+ * catfish
 
  * gnome-icon-theme-symbolic # Complete lubuntu-artwork for missing generic icons links.
 
