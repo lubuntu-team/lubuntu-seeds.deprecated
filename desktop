@@ -31,7 +31,7 @@ Task-Key: lubuntu-desktop
 == Internet ==
 
  * chromium-browser [!powerpc]
- * midori [powerpc] # Add a browser until #1008975 is fixed
+ * firefox [powerpc]
  * sylpheed
  * sylpheed-i18n
  * sylpheed-plugins
