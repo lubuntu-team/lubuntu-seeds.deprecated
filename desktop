@@ -90,9 +90,6 @@ Task-Key: lubuntu-desktop
 
  * libgtk2-perl # Add GTK interface for synaptic (LP: #926581)
 
- * indicator-application-gtk2 # Add indicator icons in notification area by default,
-                              # to workaroud bugs in fallback mode
-
 == Office ==
 
  * abiword
