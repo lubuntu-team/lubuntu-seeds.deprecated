@@ -46,6 +46,7 @@ Task-Key: lubuntu-desktop
  * gnome-mplayer
  * audacious
  * audacious-plugins
+ * libmtp-runtime # needed by libmtp9 (normally seeded through recommends LP: #1061430)
 
 == Accessories == 
 
