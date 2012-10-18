@@ -1,4 +1,4 @@
-include platform.quantal
+include platform.raring
 feature no-follow-recommends
 core: desktop-common
 desktop: core
