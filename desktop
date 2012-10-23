@@ -47,6 +47,7 @@ Task-Key: lubuntu-desktop
  * audacious
  * audacious-plugins
  * libmtp-runtime # needed by libmtp9 (normally seeded through recommends LP: #1061430)
+ * ffmpegthumbnailer # For videos thumbnails
 
 == Accessories == 
 
