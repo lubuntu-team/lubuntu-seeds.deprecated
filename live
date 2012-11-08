@@ -28,8 +28,6 @@ These packages make up the Ubiquity live installer.
 == Other ==
 
  * pptp-linux
- * ndiswrapper-utils-1.9
- * ndisgtk
  * linux-wlan-ng
  * libatm1
  * setserial
