@@ -138,15 +138,6 @@ Task-Key: lubuntu-desktop
  * apport-gtk # support for ubuntu-bug command
  * whoopsie # LP: 1001630
 
-= Drivers =
-
-Adding linux header because ubiquity doesn't install them correctly if it's not
-listed. See bug #858279.
-
- * linux-headers-generic [i386]
- * linux-headers-generic [amd64]	
- * linux-headers-dove [armel]
-	
 = Extra fonts (should be common, but not so for space reasons): =
 
  * ttf-wqy-microhei
