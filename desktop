@@ -83,6 +83,7 @@ Task-Key: lubuntu-desktop
  * cups-driver-gutenprint
  * language-selector-gnome
  * gdebi
+ * apturl
  * gnome-disk-utility
  * simple-scan
  * gnome-keyring
