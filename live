@@ -16,8 +16,6 @@ Task-Test-new-install: skip show
  * language-pack-${Languages} [!powerpc]
  * language-pack-gnome-${Languages} [!powerpc]
 
- * gparted
-
 == Ubiquity components ==
 
 These packages make up the Ubiquity live installer.
@@ -32,3 +30,4 @@ These packages make up the Ubiquity live installer.
  * libatm1
  * setserial
  * b43-fwcutter
+ * gparted
