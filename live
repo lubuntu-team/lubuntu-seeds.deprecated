@@ -31,3 +31,4 @@ These packages make up the Ubiquity live installer.
  * setserial
  * b43-fwcutter
  * gparted
+ * feh          # Background support in ubiquity-dm mode
