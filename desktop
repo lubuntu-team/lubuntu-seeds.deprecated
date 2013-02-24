@@ -33,10 +33,10 @@ Task-Key: lubuntu-desktop
 
  * chromium-browser [!powerpc]
  * firefox [powerpc]
- * sylpheed
- * sylpheed-i18n
- * sylpheed-plugins
- * sylpheed-doc
+ * sylpheed [!powerpc]
+ * sylpheed-i18n [!powerpc]
+ * sylpheed-plugins [!powerpc]
+ * sylpheed-doc [!powerpc]
  * pidgin
  * pidgin-microblog
  * transmission
@@ -58,7 +58,7 @@ Task-Key: lubuntu-desktop
  * lxtask
  * hardinfo
  * scrot
- * gucharmap
+ * gucharmap [!powerpc]
  * guvcview
 
 == Web browser plugins ==
@@ -106,7 +106,7 @@ Task-Key: lubuntu-desktop
  * xpad
 
 == Games ==
- * ace-of-penguins
+ * ace-of-penguins [!powerpc]
 
 == Archive support ==
 # Add more type of archive support
