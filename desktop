@@ -47,8 +47,8 @@ Task-Key: lubuntu-desktop
  * gnome-mplayer
  * audacious
  * audacious-plugins
- * libmtp-runtime # needed by libmtp9 (normally seeded through recommends LP: #1061430)
- * ffmpegthumbnailer # For videos thumbnails
+ * libmtp-runtime                   # needed by libmtp9 (normally seeded through recommends LP: #1061430)
+ * ffmpegthumbnailer                # For videos thumbnails
 
 == Accessories == 
 
@@ -66,17 +66,17 @@ Task-Key: lubuntu-desktop
 
 = Desktopish and/or GNOMEish tools which we do need =
 
- * desktop-file-utils   # map MIME types to apps
- * xdg-user-dirs	    # to add the Desktop directory
- * xdg-user-dirs-gtk    # in pcmanfm + standard directory
- * gvfs-fuse 		# for access of non gio applications to gvfs mounts
- * gvfs-backends 	# for adding support for backends (photos, network etc ...) to gvfs
- * policykit-desktop-privileges      # Add ability to do priviligied actions without password
-                                                                        # (mount/unmount partitions, network modification ...)
+ * desktop-file-utils               # map MIME types to apps
+ * xdg-user-dirs	                # to add the Desktop directory
+ * xdg-user-dirs-gtk                # in pcmanfm + standard directory
+ * gvfs-fuse 		                # for access of non gio applications to gvfs mounts
+ * gvfs-backends 	                # for adding support for backends (photos, network etc ...) to gvfs
+ * policykit-desktop-privileges     # Add ability to do priviligied actions without password
+                                    # (mount/unmount partitions, network modification ...)
 
  * gnome-system-tools
- * gnome-time-admin # Support for time configuration.
- * ntp			# Add support for synchronisation with time servers
+ * gnome-time-admin                 # Support for time configuration.
+ * ntp			                    # Add support for synchronisation with time servers
 
  * xfce4-power-manager
  * system-config-printer-gnome
@@ -89,13 +89,13 @@ Task-Key: lubuntu-desktop
  * gnome-keyring
  * lxkeymap
  * blueman
- * xfce4-notifyd    # Replacement for notification-daemon
+ * xfce4-notifyd                    # Replacement for notification-daemon
 
- * gnome-icon-theme-symbolic # Complete lubuntu-artwork for missing generic icons links.
+ * gnome-icon-theme-symbolic        # Complete lubuntu-artwork for missing generic icons links.
 
- * libgtk2-perl # Add GTK interface for synaptic (LP: #926581)
- * indicator-application-gtk2 # Add indicator icons in notification area by default,
-                              # to workaroud bugs in fallback mode
+ * libgtk2-perl                     # Add GTK interface for synaptic (LP: #926581)
+ * indicator-application-gtk2       # Add indicator icons in notification area by default,
+                                    # to workaroud bugs in fallback mode
 
 
 == Office ==
@@ -113,31 +113,31 @@ Task-Key: lubuntu-desktop
  * xz-utils
 
 == Artwork and Look & Feel ==
- * dmz-cursor-theme # LP: #923344
+ * dmz-cursor-theme                 # LP: #923344
 
 == Networking ==
 
  * wvdial
  * network-manager-gnome
- * modemmanager # Add support for mobile modem LP: #967132
- * mobile-broadband-provider-info # LP: #975139
- * usb-modeswitch # LP: #979304
+ * modemmanager                     # Add support for mobile modem LP: #967132
+ * mobile-broadband-provider-info   # LP: #975139
+ * usb-modeswitch                   # LP: #979304
 
 = Low level system plumbery =
 
- * xterm # For fake mixer support in lxpanel (LP: #957749)
- * powernowd # loads modules to allow CPU frequency scaling (P states); LP: #268626
- * pm-utils # Add to support suspend in some case.
- * synaptic     # for our purposes, it's plumbing ...
- * software-properties-gtk # Nice GUI to change reporsitory settings / extra drivers
- * update-notifier 	# For crash report and updates notifications
- * ubuntu-release-upgrader-gtk # For upgrade of L/Ubuntu releases. 
+ * xterm                            # For fake mixer support in lxpanel (LP: #957749)
+ * powernowd                        # loads modules to allow CPU frequency scaling (P states); LP: #268626
+ * pm-utils                         # Add to support suspend in some case.
+ * synaptic                         # for our purposes, it's plumbing ...
+ * software-properties-gtk          # Nice GUI to change reporsitory settings / extra drivers
+ * update-notifier 	                # For crash report and updates notifications
+ * ubuntu-release-upgrader-gtk      # For upgrade of L/Ubuntu releases. 
  * lubuntu-software-center
 
- * ibus 		# For changing input method LP: #889384
+ * ibus 		                    # For changing input method LP: #889384
 
- * apport-gtk # support for ubuntu-bug command
- * whoopsie # LP: 1001630
+ * apport-gtk                       # support for ubuntu-bug command
+ * whoopsie                         # LP: 1001630
 
 = Extra fonts (should be common, but not so for space reasons): =
 
@@ -146,5 +146,5 @@ Task-Key: lubuntu-desktop
  * fonts-liberation
 
 = Other =
- * lubuntu-desktop # metapackage for everything here
+ * lubuntu-desktop                  # metapackage for everything here
 
