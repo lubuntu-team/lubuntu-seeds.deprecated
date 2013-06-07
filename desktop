@@ -138,6 +138,8 @@ Task-Key: lubuntu-desktop
  * apport-gtk                       # support for ubuntu-bug command
  * whoopsie                         # LP: 1001630
 
+ * zram-config                      # enable zram support with an upstart job
+
 = Extra fonts (should be common, but not so for space reasons): =
 
  * ttf-wqy-microhei
