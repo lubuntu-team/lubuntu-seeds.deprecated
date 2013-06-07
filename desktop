@@ -96,6 +96,10 @@ Task-Key: lubuntu-desktop
  * indicator-application-gtk2       # Add indicator icons in notification area by default,
                                     # to workaroud bugs in fallback mode
 
+ * usb-creator-gtk                  # Adding utility to make USB bootable
+ * python-gudev                     # Adding to workaround LP: #1165200 
+ * gir1.2-gudev-1.0                 #
+
 
 == Office ==
 
