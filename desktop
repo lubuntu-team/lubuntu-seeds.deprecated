@@ -29,6 +29,7 @@ Task-Key: lubuntu-desktop
  * lxpanel-indicator-applet-plugin
  * lxsession-logout
  * lsb-release          # needed by lxsession-logout
+ * lxsession-default-apps
 
 == Internet ==
 
