@@ -27,6 +27,8 @@ Task-Key: lubuntu-desktop
  * leafpad
  * lxlauncher
  * lxpanel-indicator-applet-plugin
+ * lxsession-logout
+ * lsb-release          # needed by lxsession-logout
 
 == Internet ==
 
@@ -115,6 +117,7 @@ Task-Key: lubuntu-desktop
 
 == Artwork and Look & Feel ==
  * dmz-cursor-theme                 # LP: #923344
+ * gnome-accessibility-themes       # Accessiblity themes from GNOME
 
 == Networking ==
 
