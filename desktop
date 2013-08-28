@@ -40,7 +40,7 @@ Task-Key: lubuntu-desktop
  * sylpheed-plugins [!powerpc]
  * sylpheed-doc [!powerpc]
  * pidgin
- * pidgin-microblog
+# * pidgin-microblog Mostly broken LP: #1190406
  * transmission
 
 
