@@ -34,6 +34,7 @@ Task-Key: lubuntu-desktop
 == Internet ==
 
  * firefox
+ * xul-ext-ubufox
  * sylpheed [!powerpc]
  * sylpheed-i18n [!powerpc]
  * sylpheed-plugins [!powerpc]
@@ -98,8 +99,7 @@ Task-Key: lubuntu-desktop
                                     # to workaroud bugs in fallback mode
 
  * usb-creator-gtk                  # Adding utility to make USB bootable
- * python-gudev                     # Adding to workaround LP: #1165200 
- * gir1.2-gudev-1.0                 #
+ * python-gudev                     # Adding to workaround LP: #1165200
 
 
 == Office ==
