@@ -10,5 +10,3 @@ gnome-session
 apt-xapian-index
 # Bring part of gnome and unity
 unity-greeter
-# We don't use firefox, see lp:820056
-#firefox-locale-*
