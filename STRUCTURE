@@ -1,4 +1,4 @@
-include platform.saucy
+include platform.trusty
 feature no-follow-recommends
 core: desktop-common
 desktop: core
