@@ -27,7 +27,6 @@ Task-Key: lubuntu-desktop
  * lxlauncher
  * lxpanel-indicator-applet-plugin
  * lxsession-logout
- * lsb-release          # needed by lxsession-logout
  * lxsession-default-apps
 
 == Internet ==
@@ -72,8 +71,6 @@ Task-Key: lubuntu-desktop
  * xdg-user-dirs-gtk                # in pcmanfm + standard directory
  * gvfs-fuse 		                # for access of non gio applications to gvfs mounts
  * gvfs-backends 	                # for adding support for backends (photos, network etc ...) to gvfs
- * policykit-desktop-privileges     # Add ability to do priviligied actions without password
-                                    # (mount/unmount partitions, network modification ...)
 
  * gnome-system-tools
  * gnome-time-admin                 # Support for time configuration.
@@ -130,7 +127,6 @@ Task-Key: lubuntu-desktop
 = Low level system plumbery =
 
  * xterm                            # For fake mixer support in lxpanel (LP: #957749)
- * powernowd                        # loads modules to allow CPU frequency scaling (P states); LP: #268626
  * pm-utils                         # Add to support suspend in some case.
  * synaptic                         # for our purposes, it's plumbing ...
  * software-properties-gtk          # Nice GUI to change reporsitory settings / extra drivers
