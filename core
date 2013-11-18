@@ -5,8 +5,6 @@ Task-Extended-Description: This task provides minimal packages for Lubuntu (Ubun
 Task-Key: lubuntu-core
 Task-Seeds: desktop-common
 
- * Feature: no-follow-recommends
-
 = LXDE core packages =
 
  * pcmanfm
