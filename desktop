@@ -105,9 +105,6 @@ Task-Key: lubuntu-desktop
  * evince
  * xpad
 
-== Games ==
- * ace-of-penguins [!powerpc]
-
 == Archive support ==
 # Add more type of archive support
  * xz-utils
