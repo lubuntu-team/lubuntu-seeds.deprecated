@@ -32,3 +32,4 @@ These packages make up the Ubiquity live installer.
  * b43-fwcutter
  * gparted
  * feh          # Background support in ubiquity-dm mode
+ * zram-config  # enable zram support with an upstart job
