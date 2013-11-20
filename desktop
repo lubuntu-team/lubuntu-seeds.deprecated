@@ -77,6 +77,7 @@ Task-Key: lubuntu-desktop
  * ntp			                    # Add support for synchronisation with time servers
 
  * xfce4-power-manager
+ * light-locker
  * system-config-printer-gnome
  * cups-driver-gutenprint
  * language-selector-gnome
