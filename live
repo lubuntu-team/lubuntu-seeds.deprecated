@@ -21,7 +21,7 @@ Task-Test-new-install: skip show
 These packages make up the Ubiquity live installer.
 
  * ubiquity-frontend-gtk
- * ubiquity-slideshow-lubuntu
+ * ubiquity-slideshow-lubuntu [!powerpc] # Webkit broken on powerpc #996568
 
 == Other ==
 
