@@ -23,6 +23,10 @@ These packages make up the Ubiquity live installer.
  * ubiquity-frontend-gtk
  * ubiquity-slideshow-lubuntu [!powerpc] # Webkit broken on powerpc #996568
 
+== Extra settings ==
+
+ * lubuntu-live-settings
+
 == Other ==
 
  * pptp-linux
