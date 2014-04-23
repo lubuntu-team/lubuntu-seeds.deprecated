@@ -1,4 +1,4 @@
-include platform.trusty
+include platform.utopic
 feature no-follow-recommends
 core: desktop-common
 desktop: core
