@@ -147,4 +147,5 @@ Task-Key: lubuntu-desktop
 
 = Other =
  * lubuntu-desktop                  # metapackage for everything here
+ * python3-aptdaemon.pkcompat       # preferred packagekit-system-interface alternative so that we don't end up with packagekit instead
 
