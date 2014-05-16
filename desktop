@@ -46,8 +46,8 @@ Task-Key: lubuntu-desktop
 == Multimedia ==
 
  * gnome-mplayer
- * audacious
- * audacious-plugins
+ * audacious [!powerpc]
+ * audacious-plugins [!powerpc]
  * libmtp-runtime                   # needed by libmtp9 (normally seeded through recommends LP: #1061430)
  * ffmpegthumbnailer                # For videos thumbnails
 
@@ -57,7 +57,7 @@ Task-Key: lubuntu-desktop
  * xfburn
  * mtpaint
  * lxtask
- * hardinfo
+ * hardinfo [!powerpc]
  * scrot
  * gucharmap [!powerpc]
  * guvcview
@@ -86,7 +86,7 @@ Task-Key: lubuntu-desktop
  * gdebi
  * apturl
  * gnome-disk-utility
- * simple-scan
+ * simple-scan [!powerpc]
  * gnome-keyring
  * blueman
  * xfce4-notifyd                    # Replacement for notification-daemon
@@ -103,10 +103,10 @@ Task-Key: lubuntu-desktop
 
 == Office ==
 
- * abiword
- * gnumeric
+ * abiword [!powerpc]
+ * gnumeric [!powerpc]
  * evince
- * xpad
+ * xpad [!powerpc]
 
 == Archive support ==
 # Add more type of archive support
@@ -114,7 +114,7 @@ Task-Key: lubuntu-desktop
 
 == Artwork and Look & Feel ==
  * dmz-cursor-theme                 # LP: #923344
- * gnome-accessibility-themes       # Accessiblity themes from GNOME
+ * gnome-accessibility-themes [!powerpc]       # Accessiblity themes from GNOME
 
 == Networking ==
 
