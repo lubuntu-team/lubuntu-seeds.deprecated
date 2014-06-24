@@ -38,9 +38,3 @@ These packages make up the Ubiquity live installer.
  * gparted
  * feh          # Background support in ubiquity-dm mode
  * zram-config  # enable zram support with an upstart job
-
-== Kernel ==
-
- * Signed-Kernel-Stem: linux-signed linux-signed-image
-
- * ${Signed-Kernel-Stem}-generic [amd64]
