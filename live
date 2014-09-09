@@ -13,10 +13,6 @@ Task-Seeds: live-common
  * language-pack-${Languages}
  * language-pack-gnome-${Languages}
 
- * Languages: es de fr ru
- * language-pack-${Languages} [!powerpc]
- * language-pack-gnome-${Languages} [!powerpc]
-
 == Ubiquity components ==
 
 These packages make up the Ubiquity live installer.
