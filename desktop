@@ -136,12 +136,6 @@ Task-Key: lubuntu-desktop
  * apport-gtk                       # support for ubuntu-bug command
  * whoopsie                         # LP: 1001630
 
-= Extra fonts (should be common, but not so for space reasons): =
-
- * fonts-droid
- * fonts-nanum
- * fonts-liberation
-
 = Other =
  * lubuntu-desktop                  # metapackage for everything here
  * python3-aptdaemon.pkcompat       # preferred packagekit-system-interface alternative so that we don't end up with packagekit instead
