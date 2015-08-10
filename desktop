@@ -86,6 +86,7 @@ Task-Key: lubuntu-desktop
  * gnome-disk-utility
  * simple-scan [!powerpc]
  * gnome-keyring
+ * pinentry-gtk2                    # LP: #1473952 - Install the gtk2 version of pinentry, along with gnome-keyring and gpg-agent.
  * blueman
  * xfce4-notifyd                    # Replacement for notification-daemon
 
