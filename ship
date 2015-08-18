@@ -40,7 +40,7 @@
  * language-pack-gnome-${Languages}
 
 Enough room on amd64 armel i386, not enough on powerpc:
- * Languages: zh-hans hu bn sv ar fi hi el ca da hi
+ * Languages: zh-hans hu bn sv ar fi hi el
  * language-pack-${Languages} [!powerpc]
  * language-pack-gnome-${Languages} [!powerpc]
 
