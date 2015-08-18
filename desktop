@@ -82,7 +82,7 @@ Task-Key: lubuntu-desktop
  * cups-driver-gutenprint
  * language-selector-gnome
  * gdebi
- * apturl
+# * apturl # Remove, pulling webkit2 stack
  * gnome-disk-utility
  * simple-scan [!powerpc]
  * gnome-keyring
