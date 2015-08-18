@@ -130,7 +130,10 @@ Task-Key: lubuntu-desktop
  * ubuntu-release-upgrader-gtk      # For upgrade of L/Ubuntu releases. 
  * lubuntu-software-center
 
- * ibus 		                    # For changing input method LP: #889384
+ * fcitx
+ * fcitx-config-gtk2
+ * fcitx-frontend-gtk2
+ * fcitx-ui-classic
 
  * apport-gtk                       # support for ubuntu-bug command
  * whoopsie                         # LP: 1001630
