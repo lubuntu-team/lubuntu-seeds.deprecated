@@ -1,4 +1,4 @@
-include platform.wily
+include platform.xenial
 feature no-follow-recommends
 core: desktop-common
 desktop: core
