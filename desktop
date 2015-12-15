@@ -91,8 +91,6 @@ Task-Key: lubuntu-desktop
  * blueman
  * xfce4-notifyd                    # Replacement for notification-daemon
 
- * gnome-icon-theme-symbolic        # Complete lubuntu-artwork for missing generic icons links.
-
  * libgtk2-perl                     # Add GTK interface for synaptic (LP: #926581)
  * indicator-application-gtk2       # Add indicator icons in notification area by default,
                                     # to workaroud bugs in fallback mode
