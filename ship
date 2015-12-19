@@ -35,12 +35,12 @@
 == Common language packs ==
 
  # must have
- * Languages: en es de fr ru pt it pl
+ * Languages: en es de
  * language-pack-${Languages}
  * language-pack-gnome-${Languages}
 
 Enough room on amd64 armel i386, not enough on powerpc:
- * Languages: ja nl xh cs zh-hans hu bn
+ * Languages: fr ru pt it
  * language-pack-${Languages} [!powerpc]
  * language-pack-gnome-${Languages} [!powerpc]
 
