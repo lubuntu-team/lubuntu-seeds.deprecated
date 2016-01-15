@@ -39,7 +39,6 @@ Task-Key: lubuntu-desktop
  * sylpheed-plugins [!powerpc]
  * sylpheed-doc [!powerpc]
  * pidgin
-# * pidgin-microblog Mostly broken LP: #1190406
  * transmission
 
 
@@ -62,7 +61,7 @@ Task-Key: lubuntu-desktop
  * gucharmap [!powerpc]
  * guvcview
 
-= Desktopish and/or GNOMEish tools which we do need =
+== Desktopish and/or GNOMEish tools which we do need ==
 
  * desktop-file-utils               # map MIME types to apps
  * xdg-user-dirs	                # to add the Desktop directory
@@ -79,11 +78,8 @@ Task-Key: lubuntu-desktop
  * light-locker
  * light-locker-settings
  * lightdm-gtk-greeter-settings
- * system-config-printer-gnome
- * cups-driver-gutenprint
  * language-selector-gnome
  * gdebi
-# * apturl # Remove, pulling webkit2 stack
  * gnome-disk-utility
  * simple-scan [!powerpc]
  * gnome-keyring
@@ -111,6 +107,12 @@ Task-Key: lubuntu-desktop
 == Artwork and Look & Feel ==
  * dmz-cursor-theme                 # LP: #923344
 
+
+== Printing ==
+ * system-config-printer-gnome
+ * cups-driver-gutenprint
+
+
 == Networking ==
 
  * wvdial
@@ -119,7 +121,7 @@ Task-Key: lubuntu-desktop
  * mobile-broadband-provider-info   # LP: #975139
  * usb-modeswitch                   # LP: #979304
 
-= Low level system plumbery =
+== Low level system plumbery ==
 
  * xterm                            # For fake mixer support in lxpanel (LP: #957749)
  * pm-utils                         # Add to support suspend in some case.
@@ -141,7 +143,11 @@ Task-Key: lubuntu-desktop
  * fonts-nanum                      # LP: #1437875
 
 
-= Other =
+
+== Other ==
  * lubuntu-desktop                  # metapackage for everything here
  * python3-aptdaemon.pkcompat       # preferred packagekit-system-interface alternative so that we don't end up with packagekit instead
 
+== Removed ==
+# * apturl # Remove, pulling webkit2 stack
+# * pidgin-microblog Mostly broken LP: #1190406
