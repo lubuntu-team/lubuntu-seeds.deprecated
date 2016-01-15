@@ -1,6 +1,6 @@
 include platform.xenial
 feature no-follow-recommends
-core: desktop-common
+core: standard
 desktop: core
 live: desktop live-common
 ship: boot installer desktop d-i-requirements

@@ -103,6 +103,8 @@ Task-Key: lubuntu-desktop
 == Archive support ==
 # Add more type of archive support
  * xz-utils
+ * zip
+ * unzip                            # also used for .zip support in file-roller
 
 == Artwork and Look & Feel ==
  * dmz-cursor-theme                 # LP: #923344
@@ -111,6 +113,23 @@ Task-Key: lubuntu-desktop
 == Printing ==
  * system-config-printer-gnome
  * cups-driver-gutenprint
+ * cups                             # our preferred printer management infrastructure
+ * cups-bsd                         # gives us lpc, lpq, lpr, lprm
+ * cups-client                      # gives us cancel, cupstestppd, lp, lpoptions, lppasswd, lpstat, cupsaddsmb, accept, lpadmin, lpinfo, lpmove
+ * foomatic-db-compressed-ppds      # the foomatic printer driver database
+ * cups-filters
+ * openprinting-ppds                # Most common drivers we want in desktop; less common are in o-p-extra
+ * printer-driver-pnm2ppa           # several ppds require this
+ * ghostscript-x
+ * hplip     			            # support for HP all-in-one printers
+ * printer-driver-min12xxw	        # support for KonicaMinolta PagePro 1200W, 1300W printers
+ * printer-driver-foo2zjs	        # support for printing to ZjStream-based printers
+ * printer-driver-splix	            # support for Samsung lasers
+ * printer-driver-pxljr	            # support for HP Color lasers
+ * printer-driver-c2esp             # support for Kodak injket printers
+ * printer-driver-ptouch            # support for Brother P-touch printers
+ * printer-driver-sag-gdi           # support for Rico Aficio SPxxxx printers
+ * printer-driver-brlaser           # support for some Brother laser printers
 
 
 == Networking ==
@@ -120,16 +139,32 @@ Task-Key: lubuntu-desktop
  * modemmanager                     # Add support for mobile modem LP: #967132
  * mobile-broadband-provider-info   # LP: #975139
  * usb-modeswitch                   # LP: #979304
+ * wireless-tools
+ * rfkill                           # No longer using the copy from wireless-tools (LP: #715309)
+ * wpasupplicant                    # ScottJamesRemnant
+ * libnss-mdns                      # IPv4 link-local DNS support
+ * ca-certificates                  # common SSL certificates
+
+== Sound ==
+
+ * alsa-base                        # needed for proper hardware detection (hotplug/blacklist.d, modprobe.d)
+ * alsa-utils                       # basic audio support and mixer level handling
+
+== Terminal tools (from desktop-common) ==
+ * bc
+ * genisoimage
 
 == Low level system plumbery ==
 
  * xterm                            # For fake mixer support in lxpanel (LP: #957749)
  * pm-utils                         # Add to support suspend in some case.
+ * acpi-support
  * synaptic                         # for our purposes, it's plumbing ...
  * software-properties-gtk          # Nice GUI to change reporsitory settings / extra drivers
  * update-notifier 	                # For crash report and updates notifications
  * ubuntu-release-upgrader-gtk      # For upgrade of L/Ubuntu releases. 
  * lubuntu-software-center
+ * ubuntu-drivers-common            # Make it harder to remove detection support, LP#704597 
 
  * fcitx
  * fcitx-config-gtk2
@@ -140,9 +175,27 @@ Task-Key: lubuntu-desktop
  * whoopsie                         # LP: 1001630
 
  * fonts-droid                      # Extra font to display asian characters
- * fonts-nanum                      # LP: #1437875
+ * fonts-nanum                      # LP: #1437875 
 
+ * (pcmciautils)                    # PCMCIA support for >= 2.6.13-rc1 kernels
+ * inputattach                      # needed for serial mice
+ * libsasl2-modules                 # allows integration with MTA and login system
 
+ * xorg                             # this includes xserver-xorg->xserver-xorg-{input|video}-* (no need to add specific drivers manually)
+ * !linux-image-*                   # xorg transitively depends on this, but this would pull in grub-pc; we handle that separately
+ 
+ * xkb-data
+
+ * memtest86+
+
+ * anacron                          # generally appropriate for desktops
+ * kerneloops-daemon                # watch for and allow reporting of kernel problems
+ * policykit-desktop-privileges     # passwordless disk/CPU speed/time operations for admins
+ * libpam-systemd                   # logind, cross desktop compatibility
+
+== Specific ==
+ * apmd [armel]
+ * pbbuttonsd [powerpc]
 
 == Other ==
  * lubuntu-desktop                  # metapackage for everything here
