@@ -11,7 +11,6 @@ These packages are needed in order to build Ubuntu packages.
  * fakeroot
 
 == Hardware & Network Access ==
- * network-manager-gnome
  * pptp-linux             # client for Microsoft-compatible VPN's, needed for some ISPs
  * sl-modem-daemon	# needed for some Winmodems (see OutoftheboxWinmodem)
  * eagle-usb-utils        # needed for some ADSL modems
@@ -36,5 +35,3 @@ These packages are needed in order to build Ubuntu packages.
  * grub-efi [amd64]
  * grub-efi-amd64-signed [amd64]
  * shim-signed [amd64]
- * oem-config-gtk
- * ubiquity-frontend-gtk

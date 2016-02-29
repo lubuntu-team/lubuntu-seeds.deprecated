@@ -1,0 +1,85 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: Lubuntu Qt Desktop
+Task-Extended-Description: This task provides the Lubuntu (Ubuntu LXQt environment).
+Task-Key: lubuntu-desktop-qt
+
+ * Feature: no-follow-recommends
+
+= Lubuntu =
+
+ * qlubuntu-default-session
+
+
+= LXQt =
+
+ * lxqt-common
+ * lxqt-session
+ * qterminal
+ * lxqt-about
+ * lxqt-globalkeys
+ * lxqt-policykit
+ * lxqt-powermanagement
+ * lxqt-openssh-askpass
+ * lxqt-runner
+ * lxqt-notificationd
+ * lxqt-config
+ * lxqt-qtplugin
+ * lxqt-admin
+ * lximage-qt
+ * lxqt-sudo
+ * qps
+
+# Force svg support for Qt
+ * libqt5svg5
+
+
+== Internet ==
+
+ * qupzilla
+ * transmission-qt
+
+== Multimedia ==
+
+ * vlc
+
+== Accessories == 
+
+ * 2048-qt
+ * juffed
+ * noblenote
+
+== Desktopish and/or GNOMEish tools which we do need ==
+
+ * gdebi-kde
+ * pinentry-qt                      # LP: #1473952 - Install the gtk2 version of pinentry, along with gnome-keyring and gpg-agent.
+ * usb-creator-kde                  # Adding utility to make USB bootable
+
+== Office ==
+
+ * libreoffice-calc
+ * libreoffice-impress
+ * libreoffice-writer
+ * libreoffice-kde
+ * qpdfview
+
+== Low level system plumbery ==
+
+# Packages management
+ * muon
+ * muon-discover
+ * muon-updater
+
+ * software-properties-kde          # Nice GUI to change reporsitory settings / extra drivers
+ * ubuntu-release-upgrader-qt
+
+ * fcitx
+ * fcitx-frontend-qt5
+ * fcitx-ui-qimpanel
+
+== Other ==
+ * lubuntu-desktop-qt                  # metapackage for everything here
+
+== Removed ==
+# * apturl # Remove, pulling webkit2 stack
+# * pidgin-microblog Mostly broken LP: #1190406

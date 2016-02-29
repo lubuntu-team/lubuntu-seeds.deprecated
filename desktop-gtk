@@ -1,0 +1,118 @@
+Task-Per-Derivative: 1
+Task-Section: user
+Task-Description: Lubuntu Desktop (GTK part)
+Task-Extended-Description: This task provides the Lubuntu (Ubuntu LXDE environment).
+Task-Key: lubuntu-desktop-gtk
+
+ * Feature: no-follow-recommends
+ 
+= Lubuntu =
+
+ * lubuntu-default-session
+
+= Lxde =
+
+ * lxappearance
+ * lxappearance-obconf
+ * lxinput
+ * lxshortcut
+ * gpicview
+ * lxterminal
+ * file-roller
+ * lxrandr
+ * obconf
+ * leafpad
+ * lxlauncher
+ * lxpanel-indicator-applet-plugin
+ * lxsession-logout
+ * lxsession-default-apps
+
+== Internet ==
+
+ * firefox
+ * xul-ext-ubufox
+ * sylpheed [!powerpc]
+ * sylpheed-i18n [!powerpc]
+ * sylpheed-plugins [!powerpc]
+ * sylpheed-doc [!powerpc]
+ * pidgin
+ * transmission
+
+
+== Multimedia ==
+
+ * gnome-mplayer
+ * audacious [!powerpc]
+ * audacious-plugins [!powerpc]
+
+== Accessories == 
+
+ * galculator
+ * xfburn
+ * mtpaint
+ * lxtask
+ * hardinfo [!powerpc]
+ * gucharmap [!powerpc]
+ * guvcview
+
+== Desktopish and/or GNOMEish tools which we do need ==
+
+ * xdg-user-dirs-gtk                # in pcmanfm + standard directory
+
+ * gnome-system-tools
+ * gnome-time-admin                 # Support for time configuration.
+
+ * xfce4-power-manager
+ * xfce4-power-manager-plugins      # Support for lxpanel plugin
+ * light-locker
+ * light-locker-settings
+ * lightdm-gtk-greeter-settings
+ * language-selector-gnome
+ * gdebi
+ * gnome-disk-utility
+ * simple-scan [!powerpc]
+ * gnome-keyring
+ * pinentry-gtk2                    # LP: #1473952 - Install the gtk2 version of pinentry, along with gnome-keyring and gpg-agent.
+ * blueman
+ * xfce4-notifyd                    # Replacement for notification-daemon
+
+ * indicator-application-gtk2       # Add indicator icons in notification area by default,
+                                    # to workaroud bugs in fallback mode
+
+ * usb-creator-gtk                  # Adding utility to make USB bootable
+
+== Office ==
+
+ * abiword [!powerpc]
+ * gnumeric [!powerpc]
+ * evince
+ * xpad [!powerpc]
+
+
+== Networking ==
+
+ * network-manager-gnome
+
+== Low level system plumbery ==
+
+ * synaptic                         # for our purposes, it's plumbing ...
+ * software-properties-gtk          # Nice GUI to change reporsitory settings / extra drivers
+ * update-notifier 	                # For crash report and updates notifications
+ * ubuntu-release-upgrader-gtk      # For upgrade of L/Ubuntu releases. 
+ * lubuntu-software-center
+
+ * fcitx
+ * fcitx-config-gtk2
+ * fcitx-frontend-gtk2
+ * fcitx-ui-classic
+
+ * apport-gtk                       # support for ubuntu-bug command
+
+
+== Other ==
+ * lubuntu-desktop-gtk              # metapackage for everything here
+ * python3-aptdaemon.pkcompat       # preferred packagekit-system-interface alternative so that we don't end up with packagekit instead
+
+== Removed ==
+# * apturl # Remove, pulling webkit2 stack
+# * pidgin-microblog Mostly broken LP: #1190406
