@@ -137,7 +137,7 @@ Task-Key: lubuntu-desktop
  * apport-gtk                       # support for ubuntu-bug command
  * whoopsie                         # LP: 1001630
 
- * fonts-droid                      # Extra font to display asian characters
+ * fonts-noto-cjk                   # Extra font to display asian characters
  * fonts-nanum                      # LP: #1437875
 
 
