@@ -11,12 +11,12 @@ Task-Seeds: desktop-common
 = LXDE / LXQt core packages =
 
  * openbox
- * lxsession
 
 = Lubuntu core packages =
 
  * lubuntu-default-settings
  * lubuntu-artwork
+ * lubuntu-icon-theme
  * plymouth-theme-lubuntu-logo
  * plymouth-theme-lubuntu-text
  

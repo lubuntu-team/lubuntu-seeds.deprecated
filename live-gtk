@@ -9,6 +9,7 @@ Task-Seeds: live-common
 
 == Languages support ==
 
+ * Languages: en
  * language-pack-gnome-${Languages}
  * firefox-locale-${Languages}
 

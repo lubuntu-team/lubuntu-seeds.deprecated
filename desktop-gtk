@@ -17,7 +17,6 @@ Task-Key: lubuntu-desktop-gtk
  * lxinput
  * lxshortcut
  * gpicview
- * lxterminal
  * file-roller
  * lxrandr
  * obconf
@@ -54,10 +53,13 @@ Task-Key: lubuntu-desktop-gtk
  * hardinfo [!powerpc]
  * gucharmap [!powerpc]
  * guvcview
+ * scrot
 
 == Desktopish and/or GNOMEish tools which we do need ==
 
  * xdg-user-dirs-gtk                # in pcmanfm + standard directory
+
+ * libgtk2-perl                     # Add GTK interface for synaptic (LP: #926581)
 
  * gnome-system-tools
  * gnome-time-admin                 # Support for time configuration.
@@ -93,6 +95,10 @@ Task-Key: lubuntu-desktop-gtk
 
  * network-manager-gnome
 
+== Printing ==
+
+ * system-config-printer-gnome
+
 == Low level system plumbery ==
 
  * synaptic                         # for our purposes, it's plumbing ...
@@ -101,7 +107,6 @@ Task-Key: lubuntu-desktop-gtk
  * ubuntu-release-upgrader-gtk      # For upgrade of L/Ubuntu releases. 
  * lubuntu-software-center
 
- * fcitx
  * fcitx-config-gtk2
  * fcitx-frontend-gtk2
  * fcitx-ui-classic
@@ -111,7 +116,6 @@ Task-Key: lubuntu-desktop-gtk
 
 == Other ==
  * lubuntu-desktop-gtk              # metapackage for everything here
- * python3-aptdaemon.pkcompat       # preferred packagekit-system-interface alternative so that we don't end up with packagekit instead
 
 == Removed ==
 # * apturl # Remove, pulling webkit2 stack

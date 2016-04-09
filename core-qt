@@ -3,7 +3,7 @@ Task-Section: user
 Task-Description: Lubuntu minimal installation
 Task-Extended-Description: This task provides minimal packages for Lubuntu (Ubuntu LXDE environment).
 Task-Key: lubuntu-core
-Task-Seeds: desktop-common-gtk
+Task-Seeds: desktop-common
 
  * Feature: no-follow-recommends
 
@@ -11,6 +11,9 @@ Task-Seeds: desktop-common-gtk
 
  * pcmanfm-qt
  * lxqt-panel
+ * lxqt-common
+ * lxqt-session
+ * qterminal
 
 = Display manager =
  * sddm

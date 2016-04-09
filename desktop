@@ -15,10 +15,6 @@ Task-Key: lubuntu-desktop
 
  * libfm-modules
 
-== Accessories ==
-
- * scrot
-
 == Multimedia ==
 
  * libmtp-runtime                   # needed by libmtp9 (normally seeded through recommends LP: #1061430)
@@ -31,7 +27,7 @@ Task-Key: lubuntu-desktop
  * gvfs-fuse 		                # for access of non gio applications to gvfs mounts
  * gvfs-backends 	                # for adding support for backends (photos, network etc ...) to gvfs
  * ntp			                    # Add support for synchronisation with time servers
- * libgtk2-perl                     # Add GTK interface for synaptic (LP: #926581)
+ * compton
 
 == Archive support ==
 
@@ -42,12 +38,10 @@ Task-Key: lubuntu-desktop
 
 == Artwork and Look & Feel ==
 
- * lubuntu-icon-theme
  * dmz-cursor-theme                 # LP: #923344
 
 == Printing ==
 
- * system-config-printer-gnome
  * cups-driver-gutenprint
  * cups                             # our preferred printer management infrastructure
  * cups-bsd                         # gives us lpc, lpq, lpr, lprm
@@ -91,7 +85,6 @@ Task-Key: lubuntu-desktop
 
 == Low level system plumbery ==
 
- * xterm                            # For fake mixer support in lxpanel (LP: #957749)
  * pm-utils                         # Add to support suspend in some case.
  * acpi-support
  * laptop-detect
@@ -106,9 +99,11 @@ Task-Key: lubuntu-desktop
  * fonts-noto-cjk                   # Extra font to display asian characters
  * fonts-nanum                      # LP: #1437875 
 
- * pcmciautils                    # PCMCIA support for >= 2.6.13-rc1 kernels
+ * pcmciautils                      # PCMCIA support for >= 2.6.13-rc1 kernels
  * inputattach                      # needed for serial mice
  * libsasl2-modules                 # allows integration with MTA and login system
+
+ * fcitx
  
  * xkb-data
 
