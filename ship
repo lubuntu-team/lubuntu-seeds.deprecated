@@ -35,14 +35,10 @@
 == Common language packs ==
 
  # must have
- * Languages: en es de
+ * Languages: en
  * language-pack-${Languages}
- * language-pack-gnome-${Languages}
 
-Enough room on amd64 armel i386, not enough on powerpc:
- * Languages: fr ru pt
- * language-pack-${Languages} [!powerpc]
- * language-pack-gnome-${Languages} [!powerpc]
+# * language-pack-gnome-${Languages}
 
 # subset of English language support which we want by default:
  * aspell-en
