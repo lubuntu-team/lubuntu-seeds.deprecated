@@ -8,11 +8,7 @@ packages.
  * pptp-linux             # client for Microsoft-compatible VPN's, needed for some ISPs
  * sl-modem-daemon	# needed for some Winmodems (see OutoftheboxWinmodem)
  * caspar
- * isdnutils-xtools
- * capiutils
- * pppdcapiplugin
  * avm-fritz-firmware
- * drdsl
  * libatm1	# suggested by ppp for PPP-over-ATM
  * setserial	# needed by folks with nonstandard serial ports
  * mouseemu	# needed on Macs with single-button mice
