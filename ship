@@ -23,7 +23,6 @@
  * eagle-usb-utils        # needed for some ADSL modems
  * bpalogin
 
- * linux-wlan-ng
  * libatm1	# suggested by ppp for PPP-over-ATM
  * setserial	# needed by folks with nonstandard serial ports
  * b43-fwcutter

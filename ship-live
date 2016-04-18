@@ -13,7 +13,6 @@ packages.
  * isdnutils-xtools
  * capiutils
  * pppdcapiplugin
- * linux-wlan-ng
  * avm-fritz-firmware
  * drdsl
  * libatm1	# suggested by ppp for PPP-over-ATM
