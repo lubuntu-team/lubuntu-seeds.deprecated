@@ -20,8 +20,6 @@
 == Hardware & Network Access ==
 
  * pptp-linux             # client for Microsoft-compatible VPN's, needed for some ISPs
- * eagle-usb-utils        # needed for some ADSL modems
- * bpalogin
 
  * libatm1	# suggested by ppp for PPP-over-ATM
  * setserial	# needed by folks with nonstandard serial ports
