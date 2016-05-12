@@ -27,4 +27,4 @@ These packages make up the Ubiquity live installer.
 == Other ==
 
  * gparted
- * cifs-utils # Needed by casper for CIFS root=
+ * cifs-utils               # Needed by casper for CIFS root=

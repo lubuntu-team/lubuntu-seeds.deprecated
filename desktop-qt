@@ -26,8 +26,7 @@ Task-Key: lubuntu-desktop-qt
  * lxqt-sudo
  * qps
 
-# Force svg support for Qt
- * libqt5svg5
+ * libqt5svg5                       # Force svg support for Qt
 
 
 == Internet ==
@@ -90,7 +89,7 @@ Task-Key: lubuntu-desktop-qt
  * fcitx-ui-qimpanel
 
 == Other ==
- * lubuntu-desktop-qt                  # metapackage for everything here
+ * lubuntu-desktop-qt               # metapackage for everything here
 
 == Removed ==
 # * apturl # Remove, pulling webkit2 stack

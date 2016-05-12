@@ -1,28 +1,28 @@
 == Kernel ==
 
- * linux [amd64] # not i386 because top-level 'linux' is -generic-pae now
+ * linux [amd64]            # not i386 because top-level 'linux' is -generic-pae now
 
 == Server ==
 
  * ssh
- * nfs-kernel-server   # need an NFS server
+ * nfs-kernel-server        # need an NFS server
 
 == Networking ==
 
  * bsd-mailx
- * vlan                   # userland tools to config 8021q support
+ * vlan                     # userland tools to config 8021q support
 
 == Common UNIX stuff ==
 
- * nfs-common		  # allows people to access NFS filesystems
+ * nfs-common		        # allows people to access NFS filesystems
  # * vim                    # vim-tiny is in minimal; vim includes syntax highlighting, help files, etc.
 
 == Hardware & Network Access ==
 
- * pptp-linux             # client for Microsoft-compatible VPN's, needed for some ISPs
+ * pptp-linux               # client for Microsoft-compatible VPN's, needed for some ISPs
 
- * libatm1	# suggested by ppp for PPP-over-ATM
- * setserial	# needed by folks with nonstandard serial ports
+ * libatm1	                # suggested by ppp for PPP-over-ATM
+ * setserial	            # needed by folks with nonstandard serial ports
  * b43-fwcutter
 
 == Common language packs ==
