@@ -7,27 +7,24 @@ Task-Seeds: desktop-common
 
  * Feature: no-follow-recommends
 
-= LXDE core packages =
 
- * pcmanfm
- * lxpanel
- * lxsession
+= LXDE / LXQt core packages =
+
  * openbox
 
 = Lubuntu core packages =
 
  * lubuntu-default-settings
  * lubuntu-artwork
+ * lubuntu-icon-theme
  * plymouth-theme-lubuntu-logo
  * plymouth-theme-lubuntu-text
  
 = Other needed packages =
 
  * dbus-x11
- * lightdm
- * lightdm-gtk-greeter
 
-= Other =
+= X =
 
  * xserver-xorg-video-all           # Depend on the driver-all packages, xorg doesn't provide them
  * xserver-xorg-input-all           # and desktop-common seed only recommend them. LP: #1441843

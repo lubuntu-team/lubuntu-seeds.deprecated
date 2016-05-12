@@ -1,9 +1,17 @@
 include platform.yakkety
 feature no-follow-recommends
-core: desktop-common
-desktop: core
+core: core-gtk
+core-gtk: standard
+core-qt: standard
+desktop: core desktop-gtk
+desktop-gtk: standard
+desktop-qt: standard
 live: desktop live-common
+live-gtk: desktop-gtk live-common
+live-qt: desktop-qt live-common
 ship: boot installer desktop d-i-requirements
-ship-live: boot live
+ship-live: ship-live-gtk
+ship-live-gtk: boot live
+ship-live-qt: boot live
 # make sure supported remains the last entry
-supported: desktop ship-live supported-common core
+supported: desktop desktop-gtk desktop-qt ship-live ship-live-gtk ship-live-qt supported-common core core-gtk core-qt

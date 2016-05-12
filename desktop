@@ -5,143 +5,118 @@ Task-Extended-Description: This task provides the Lubuntu (Ubuntu LXDE environme
 Task-Key: lubuntu-desktop
 
  * Feature: no-follow-recommends
- 
-= Lubuntu =
 
+== Default seeds ==
+
+ * lubuntu-desktop-gtk
  * lubuntu-core
- * lubuntu-default-session
 
-= Lxde =
+== LXDE / LXQt common components ==
 
- * lxappearance
- * lxappearance-obconf
- * lxinput
- * lxshortcut
- * gpicview
- * lxterminal
- * file-roller
- * lxrandr
- * obconf
- * x11-utils
- * leafpad
- * lxlauncher
- * lxpanel-indicator-applet-plugin
- * lxsession-logout
- * lxsession-default-apps
  * libfm-modules
-
-== Internet ==
-
- * firefox
- * xul-ext-ubufox
- * sylpheed [!powerpc]
- * sylpheed-i18n [!powerpc]
- * sylpheed-plugins [!powerpc]
- * sylpheed-doc [!powerpc]
- * pidgin
-# * pidgin-microblog Mostly broken LP: #1190406
- * transmission
-
 
 == Multimedia ==
 
- * gnome-mplayer
- * audacious [!powerpc]
- * audacious-plugins [!powerpc]
  * libmtp-runtime                   # needed by libmtp9 (normally seeded through recommends LP: #1061430)
  * ffmpegthumbnailer                # For videos thumbnails
 
-== Accessories == 
-
- * galculator
- * xfburn
- * mtpaint
- * lxtask
- * hardinfo [!powerpc]
- * scrot
- * gucharmap [!powerpc]
- * guvcview
-
-= Desktopish and/or GNOMEish tools which we do need =
+== Desktopish tools which we do need ==
 
  * desktop-file-utils               # map MIME types to apps
  * xdg-user-dirs	                # to add the Desktop directory
- * xdg-user-dirs-gtk                # in pcmanfm + standard directory
  * gvfs-fuse 		                # for access of non gio applications to gvfs mounts
  * gvfs-backends 	                # for adding support for backends (photos, network etc ...) to gvfs
-
- * gnome-system-tools
- * gnome-time-admin                 # Support for time configuration.
  * ntp			                    # Add support for synchronisation with time servers
-
- * xfce4-power-manager
- * xfce4-power-manager-plugins      # Support for lxpanel plugin
- * light-locker
- * light-locker-settings
- * lightdm-gtk-greeter-settings
- * system-config-printer-gnome
- * cups-driver-gutenprint
- * language-selector-gnome
- * gdebi
-# * apturl # Remove, pulling webkit2 stack
- * gnome-disk-utility
- * simple-scan [!powerpc]
- * gnome-keyring
- * pinentry-gtk2                    # LP: #1473952 - Install the gtk2 version of pinentry, along with gnome-keyring and gpg-agent.
- * blueman
- * xfce4-notifyd                    # Replacement for notification-daemon
-
- * libgtk2-perl                     # Add GTK interface for synaptic (LP: #926581)
- * indicator-application-gtk2       # Add indicator icons in notification area by default,
-                                    # to workaroud bugs in fallback mode
-
- * usb-creator-gtk                  # Adding utility to make USB bootable
-
-== Office ==
-
- * abiword [!powerpc]
- * gnumeric [!powerpc]
- * evince
- * xpad [!powerpc]
+ * compton
 
 == Archive support ==
+
 # Add more type of archive support
  * xz-utils
+ * zip
+ * unzip                            # also used for .zip support in file-roller
 
 == Artwork and Look & Feel ==
+
  * dmz-cursor-theme                 # LP: #923344
+
+== Printing ==
+
+ * cups-driver-gutenprint
+ * cups                             # our preferred printer management infrastructure
+ * cups-bsd                         # gives us lpc, lpq, lpr, lprm
+ * cups-client                      # gives us cancel, cupstestppd, lp, lpoptions, lppasswd, lpstat, cupsaddsmb, accept, lpadmin, lpinfo, lpmove
+ * foomatic-db-compressed-ppds      # the foomatic printer driver database
+ * cups-filters
+ * openprinting-ppds                # Most common drivers we want in desktop; less common are in o-p-extra
+ * printer-driver-pnm2ppa           # several ppds require this
+ * ghostscript-x
+ * hplip     			            # support for HP all-in-one printers
+ * printer-driver-min12xxw	        # support for KonicaMinolta PagePro 1200W, 1300W printers
+ * printer-driver-foo2zjs	        # support for printing to ZjStream-based printers
+ * printer-driver-splix	            # support for Samsung lasers
+ * printer-driver-pxljr	            # support for HP Color lasers
+ * printer-driver-c2esp             # support for Kodak injket printers
+ * printer-driver-ptouch            # support for Brother P-touch printers
+ * printer-driver-sag-gdi           # support for Rico Aficio SPxxxx printers
+ * printer-driver-brlaser           # support for some Brother laser printers
+
+== Sound ==
+
+ * alsa-base                        # needed for proper hardware detection (hotplug/blacklist.d, modprobe.d)
+ * alsa-utils                       # basic audio support and mixer level handling
+
+== Terminal tools (from desktop-common) ==
+
+ * bc
+ * genisoimage
 
 == Networking ==
 
  * wvdial
- * network-manager-gnome
  * modemmanager                     # Add support for mobile modem LP: #967132
  * mobile-broadband-provider-info   # LP: #975139
  * usb-modeswitch                   # LP: #979304
+ * wireless-tools
+ * rfkill                           # No longer using the copy from wireless-tools (LP: #715309)
+ * wpasupplicant                    # ScottJamesRemnant
+ * libnss-mdns                      # IPv4 link-local DNS support
+ * ca-certificates                  # common SSL certificates
 
-= Low level system plumbery =
+== Low level system plumbery ==
 
- * alsamixergui                     # For fake mixer support in lxpanel (LP: #957749)
  * pm-utils                         # Add to support suspend in some case.
- * synaptic                         # for our purposes, it's plumbing ...
- * software-properties-gtk          # Nice GUI to change reporsitory settings / extra drivers
+ * acpi-support
+ * laptop-detect
  * update-notifier 	                # For crash report and updates notifications
- * ubuntu-release-upgrader-gtk      # For upgrade of L/Ubuntu releases. 
- * lubuntu-software-center
-
- * fcitx
- * fcitx-config-gtk2
- * fcitx-frontend-gtk2
- * fcitx-ui-classic
-
- * apport-gtk                       # support for ubuntu-bug command
+ * ubuntu-drivers-common            # Make it harder to remove detection support, LP#704597
+ * policykit-desktop-privileges     # passwordless disk/CPU speed/time operations for admins
+ * libpam-systemd                   # logind, cross desktop compatibility 
+ * x11-utils
  * whoopsie                         # LP: 1001630
+ * kerneloops-daemon                # watch for and allow reporting of kernel problems
 
  * fonts-noto-cjk                   # Extra font to display asian characters
- * fonts-nanum                      # LP: #1437875
+ * fonts-nanum                      # LP: #1437875 
 
+ * pcmciautils                      # PCMCIA support for >= 2.6.13-rc1 kernels
+ * inputattach                      # needed for serial mice
+ * libsasl2-modules                 # allows integration with MTA and login system
 
-= Other =
- * lubuntu-desktop                  # metapackage for everything here
+ * fcitx
+ 
+ * xkb-data
+
+ * memtest86+
+
+ * anacron                          # generally appropriate for desktops
+
  * python3-aptdaemon.pkcompat       # preferred packagekit-system-interface alternative so that we don't end up with packagekit instead
 
+== Specific ==
+
+ * apmd [armel]
+ * pbbuttonsd [powerpc]
+
+== Other ==
+ * lubuntu-desktop                  # metapackage for everything here
