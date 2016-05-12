@@ -3,6 +3,7 @@ Task-Section: user
 Task-Description: Lubuntu Desktop (GTK part)
 Task-Extended-Description: This task provides the Lubuntu (Ubuntu LXDE environment).
 Task-Key: lubuntu-desktop-gtk
+Task-Seeds: core-gtk
 
  * Feature: no-follow-recommends
  

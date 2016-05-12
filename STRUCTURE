@@ -4,8 +4,8 @@ core: core-gtk
 core-gtk: standard
 core-qt: standard
 desktop: core desktop-gtk
-desktop-gtk: standard
-desktop-qt: standard
+desktop-gtk: core-gtk standard
+desktop-qt: core-qt standard
 live: desktop live-common
 live-gtk: desktop-gtk live-common
 live-qt: desktop-qt live-common

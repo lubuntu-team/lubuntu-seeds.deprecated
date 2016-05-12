@@ -3,6 +3,7 @@ Task-Section: user
 Task-Description: Lubuntu Qt Desktop
 Task-Extended-Description: This task provides the Lubuntu (Ubuntu LXQt environment).
 Task-Key: lubuntu-desktop-qt
+Task-Seeds: core-qt
 
  * Feature: no-follow-recommends
 
