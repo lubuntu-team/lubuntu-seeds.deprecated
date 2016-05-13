@@ -18,6 +18,8 @@ Task-Seeds: desktop-gtk
 
 == Multimedia ==
 
+ * audacious [!powerpc]
+ * audacious-plugins [!powerpc]
  * libmtp-runtime                   # needed by libmtp9 (normally seeded through recommends LP: #1061430)
  * ffmpegthumbnailer                # For videos thumbnails
 

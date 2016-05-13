@@ -42,8 +42,6 @@ Task-Seeds: core-gtk
 == Multimedia ==
 
  * gnome-mplayer
- * audacious [!powerpc]
- * audacious-plugins [!powerpc]
 
 == Accessories == 
 
