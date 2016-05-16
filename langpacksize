@@ -1,0 +1,70 @@
+#!/usr/bin/python
+
+import apt, re, sys
+
+apt_cache = apt.Cache()
+
+# most spoken languages of the world, prioritized
+priority_langs = [ 'en', 'es',  'de', 'fr', 'ru', 'pt', 'it', 'zh-hans', 'pl', 'ja', 'nl', 'cs', 'xh', 'hu', 'zh', 'bn']
+
+extra_pkgs_counted = {'gnome': set(), 'kde': set(), '(gnome|kde)': set()}
+
+def language_size(lang, mode):
+    '''Return the cumulative size of all language packs related to the given
+    language code.'''
+
+    sum = 0
+    name_re = re.compile('^language-pack-(?:%s-)?%s(?:-|$)' % (mode, lang))
+    for p in apt_cache.keys():
+        if name_re.match(p):
+            sum += apt_cache[p].candidate.size
+
+    if sum == 0:
+        raise Exception('Invalid language: %s' % lang)
+
+    return sum
+
+def all_languages():
+    '''Return list of all available languages.'''
+
+    langs = []
+    for p in apt_cache.keys():
+        if p.startswith('language-pack-'):
+            comps = p.split('-')
+            if len(comps) == 3 and comps[2] != 'zh':
+                langs.append(comps[2])
+            if len(comps) == 4 and comps[2] == 'zh' and comps[3] != 'base':
+                langs.append('%s-%s' % (comps[2], comps[3]))
+    return langs
+
+def main():
+    # prioritize languages
+    langs = all_languages()
+    langs.sort()
+    priority_langs.reverse()
+    for pl in priority_langs:
+        if pl in langs:
+            langs.remove(pl)
+            langs.insert(0, pl)
+
+    gnomesum = 0
+    kdesum = 0
+    gnomekdesum = 0
+    for l in langs:
+        gsize = language_size(l, 'gnome')
+        ksize = language_size(l, 'kde')
+        gksize = language_size(l, '(gnome|kde)')
+        gnomesum += gsize
+        kdesum += ksize
+        gnomekdesum += gksize
+
+        if len(sys.argv) > 1 and sys.argv[1] == 'MB':
+            print("%-5s  G: %8.2f  K: %8.2f  G+K: %8.2f  GSum: %8.2f  KSum: %8.2f G+KSum: %8.2f" % \
+                (l, gsize/1048576., ksize/1048576., gksize/1048576.,
+                 gnomesum/1048576., kdesum/1048576., gnomekdesum/1048576.))
+        else:
+            print("%-5s  G: %10i  K: %10i  G+K: %10i  GSum: %10i  KSum: %10i G+KSum: %10i" % \
+                (l, gsize, ksize, gksize, gnomesum, kdesum, gnomekdesum))
+
+if __name__ == '__main__':
+    main()

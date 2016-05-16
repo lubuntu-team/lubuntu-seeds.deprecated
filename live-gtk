@@ -3,28 +3,18 @@ Task-Section: user
 Task-Description: Lubuntu live CD
 Task-Extended-Description: This task provides the extra packages installed on the Lubuntu live CD. It is neither useful nor recommended to install this task in other environments.
 Task-Relevance: 2
-Task-Key: ubiquity-frontend
+Task-Key: ubiquity-frontend-gtk
 Task-Test-new-install: skip show
 Task-Seeds: live-common
 
 == Languages support ==
 
  * Languages: en
- * language-pack-${Languages}
+ * language-pack-gnome-${Languages}
+ * firefox-locale-${Languages}
 
 == Ubiquity components ==
 
 These packages make up the Ubiquity live installer.
 
- * ubiquity-slideshow-lubuntu
-
-== Lubuntu specifics ==
-
- * lubuntu-live-settings    # Add specific settings to the live image (like not starting light-locker)        
- * zram-config              # enable zram support with an upstart job
- * feh                      # Background support in ubiquity-dm mode
-
-== Other ==
-
- * gparted
- * cifs-utils               # Needed by casper for CIFS root=
+ * ubiquity-frontend-gtk

@@ -3,31 +3,31 @@ Task-Section: user
 Task-Description: Lubuntu minimal installation
 Task-Extended-Description: This task provides minimal packages for Lubuntu (Ubuntu LXDE environment).
 Task-Key: lubuntu-core
-Task-Seeds: desktop-common
+Task-Name: lubuntu-core
+Task-Metapackage: lubuntu-core
+Task-Seeds: core-gtk
 
  * Feature: no-follow-recommends
 
-= LXDE core packages =
 
- * pcmanfm
- * lxpanel
- * lxsession
+= LXDE / LXQt core packages =
+
  * openbox
 
 = Lubuntu core packages =
 
  * lubuntu-default-settings
  * lubuntu-artwork
+ * lubuntu-icon-theme
  * plymouth-theme-lubuntu-logo
  * plymouth-theme-lubuntu-text
  
 = Other needed packages =
 
  * dbus-x11
- * lightdm
- * lightdm-gtk-greeter
 
-= Other =
+= X =
 
  * xserver-xorg-video-all           # Depend on the driver-all packages, xorg doesn't provide them
  * xserver-xorg-input-all           # and desktop-common seed only recommend them. LP: #1441843
+ * xserver-xorg-video-intel         # Not installed by default, better for old Intel cards
