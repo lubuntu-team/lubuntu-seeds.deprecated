@@ -16,6 +16,9 @@ Task-Metapackage: lubuntu-qt-core
  * lxqt-session
  * qterminal
 
+= Artwork (to provide icons packages =
+ * lubuntu-icon-theme
+
 = Display manager =
  * sddm
  * sddm-theme-lubuntu-chooser

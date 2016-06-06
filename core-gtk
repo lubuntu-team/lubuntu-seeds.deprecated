@@ -15,6 +15,9 @@ Task-Metapackage: lubuntu-gtk-core
  * lxsession
  * lxterminal
 
+= Artwork (to provide icons packages =
+ * lubuntu-icon-theme
+
 = Other needed packages =
  * lightdm
  * lightdm-gtk-greeter
