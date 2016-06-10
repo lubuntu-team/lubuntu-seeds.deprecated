@@ -14,4 +14,4 @@ ship-live: ship-live-gtk
 ship-live-gtk: boot live
 ship-live-qt: boot live
 # make sure supported remains the last entry
-supported: desktop desktop-gtk desktop-qt ship-live ship-live-gtk ship-live-qt supported-common core core-gtk core-qt
+supported: core desktop ship-live supported-common
