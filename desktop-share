@@ -103,6 +103,11 @@ Task-Seeds: core-share
  * inputattach                      # needed for serial mice
  * libsasl2-modules                 # allows integration with MTA and login system
 
+ * fwupdate                         # Firmware updating support
+ * fwupdate-signed
+
+ * snapd                            # snap packages support
+
  * fcitx
  
  * xkb-data
