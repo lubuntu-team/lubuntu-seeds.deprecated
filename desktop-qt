@@ -5,7 +5,7 @@ Task-Extended-Description: This task provides the Lubuntu (Ubuntu LXQt environme
 Task-Key: lubuntu-qt-desktop
 Task-Name: lubuntu-qt-desktop
 Task-Metapackage: lubuntu-qt-desktop
-Task-Seeds: core-qt
+Task-Seeds: desktop-share core-qt
 
  * Feature: no-follow-recommends
 

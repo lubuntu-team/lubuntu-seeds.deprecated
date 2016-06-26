@@ -1,17 +1,21 @@
 include platform.yakkety
 feature no-follow-recommends
-core: core-gtk
-core-gtk: standard
-core-qt: standard
+core: core-gtk core-share
+core-gtk: core-share
+core-qt: core-share
+core-share: standard
 desktop: core desktop-gtk
 desktop-gtk: core-gtk standard
 desktop-qt: core-qt standard
-live: desktop live-common
-live-gtk: desktop-gtk live-common
-live-qt: desktop-qt live-common
+desktop-share: core-share standard
+live: desktop live-share live-common
+live-gtk: desktop-gtk live-share live-common
+live-qt: desktop-qt live-share live-common
+live-share: live-common
 ship: boot installer desktop d-i-requirements
-ship-live: ship-live-gtk
-ship-live-gtk: boot live
-ship-live-qt: boot live
+ship-live: ship-live-gtk ship-share
+ship-live-gtk: ship-share boot live
+ship-live-qt: ship-share boot live
+ship-share: boot live
 # make sure supported remains the last entry
 supported: core desktop ship-live supported-common

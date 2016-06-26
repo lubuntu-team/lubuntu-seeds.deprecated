@@ -5,7 +5,7 @@ Task-Extended-Description: This task provides the Lubuntu (Ubuntu LXDE environme
 Task-Key: lubuntu-gtk-desktop
 Task-Name: lubuntu-gtk-desktop
 Task-Metapackage: lubuntu-gtk-desktop
-Task-Seeds: core-gtk
+Task-Seeds: desktop-share core-gtk
 
  * Feature: no-follow-recommends
  

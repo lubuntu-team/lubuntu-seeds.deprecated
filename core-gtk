@@ -5,6 +5,7 @@ Task-Extended-Description: This task provides minimal packages for Lubuntu (Ubun
 Task-Key: lubuntu-gtk-core
 Task-Name: lubuntu-gtk-core
 Task-Metapackage: lubuntu-gtk-core
+Task-Seeds: core-share
 
  * Feature: no-follow-recommends
 
@@ -14,9 +15,6 @@ Task-Metapackage: lubuntu-gtk-core
  * lxpanel
  * lxsession
  * lxterminal
-
-= Artwork (to provide icons packages =
- * lubuntu-icon-theme
 
 = Other needed packages =
  * lightdm

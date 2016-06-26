@@ -5,6 +5,7 @@ Task-Extended-Description: This task provides minimal packages for Lubuntu (Ubun
 Task-Key: lubuntu-qt-core
 Task-Name: lubuntu-qt-core
 Task-Metapackage: lubuntu-qt-core
+Task-Seeds: core-share
 
  * Feature: no-follow-recommends
 
@@ -15,9 +16,6 @@ Task-Metapackage: lubuntu-qt-core
  * lxqt-common
  * lxqt-session
  * qterminal
-
-= Artwork (to provide icons packages =
- * lubuntu-icon-theme
 
 = Display manager =
  * sddm
