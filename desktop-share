@@ -22,6 +22,7 @@ Task-Seeds: core-share
  * audacious-plugins [!powerpc]
  * libmtp-runtime                   # needed by libmtp9 (normally seeded through recommends LP: #1061430)
  * ffmpegthumbnailer                # For videos thumbnails
+ * pulseaudio                       # Support for most audios devices
 
 == Desktopish tools which we do need ==
 
