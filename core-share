@@ -23,6 +23,8 @@ Task-Name: lubuntu-core-share
 = Other needed packages =
 
  * dbus-x11
+ * ubuntu-mono                      # Minimal artwork bits, seed him with lubuntu-artwork to
+                                    # avoid other icon theme to be installed.
 
 = X =
 
