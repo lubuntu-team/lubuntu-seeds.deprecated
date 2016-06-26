@@ -5,8 +5,8 @@ core-gtk: core-share
 core-qt: core-share
 core-share: standard
 desktop: core desktop-gtk
-desktop-gtk: core-gtk standard
-desktop-qt: core-qt standard
+desktop-gtk: desktop-share core-gtk standard
+desktop-qt: desktop-share core-qt standard
 desktop-share: core-share standard
 live: desktop live-share live-common
 live-gtk: desktop-gtk live-share live-common
