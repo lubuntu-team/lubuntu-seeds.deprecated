@@ -22,7 +22,6 @@ Task-Seeds: core-share
  * audacious-plugins [!powerpc]
  * libmtp-runtime                   # needed by libmtp9 (normally seeded through recommends LP: #1061430)
  * ffmpegthumbnailer                # For videos thumbnails
- * pulseaudio                       # Support for most audios devices
 
 == Desktopish tools which we do need ==
 
@@ -65,8 +64,7 @@ Task-Seeds: core-share
 
 == Sound ==
 
- * alsa-base                        # needed for proper hardware detection (hotplug/blacklist.d, modprobe.d)
- * alsa-utils                       # basic audio support and mixer level handling
+ * pulseaudio                       # Support for most audios devices
 
 == Terminal tools (from desktop-common) ==
 
