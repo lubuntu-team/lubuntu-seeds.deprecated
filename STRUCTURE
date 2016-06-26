@@ -13,9 +13,9 @@ live-gtk: desktop-gtk live-share live-common
 live-qt: desktop-qt live-share live-common
 live-share: live-common
 ship: boot installer desktop d-i-requirements
-ship-live: ship-live-gtk ship-share
-ship-live-gtk: ship-share boot live
-ship-live-qt: ship-share boot live
-ship-share: boot live
+ship-live: ship-live-gtk ship-live-share
+ship-live-gtk: ship-live-share boot live
+ship-live-qt: ship-live-share boot live
+ship-live-share: boot live
 # make sure supported remains the last entry
 supported: core desktop ship-live supported-common
