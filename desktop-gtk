@@ -69,7 +69,6 @@ Task-Seeds: desktop-share core-gtk
  * xfce4-power-manager
  * xfce4-power-manager-plugins      # Support for lxpanel plugin
  * light-locker
- * light-locker-settings
  * lightdm-gtk-greeter-settings
  * language-selector-gnome
  * gdebi
