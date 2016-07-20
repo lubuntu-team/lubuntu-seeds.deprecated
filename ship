@@ -43,6 +43,7 @@
  * grub # needed for dmraid et al
  * oem-config-gtk
  * uboot-mkimage [armel]
+ * makedev                  # Necessary for deboostrap when building alternate
 
 == Transitional packages ==
 
