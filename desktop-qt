@@ -59,7 +59,7 @@ Task-Seeds: desktop-share core-qt
 
  * xscreensaver
  * gdebi-kde
- * pinentry-qt                      # LP: #1473952 - Install the gtk2 version of pinentry, along with gnome-keyring and gpg-agent.
+ * pinentry-qt                      # LP: #1473952 - Install the Qt version of pinentry, along with gpg-agent.
  * usb-creator-kde                  # Adding utility to make USB bootable
  * compton-conf
  * obconf-qt

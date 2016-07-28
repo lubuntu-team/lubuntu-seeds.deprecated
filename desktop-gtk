@@ -71,7 +71,6 @@ Task-Seeds: desktop-share core-gtk
  * light-locker
  * lightdm-gtk-greeter-settings
  * language-selector-gnome
- * gdebi
  * gnome-disk-utility
  * simple-scan [!powerpc]
  * gnome-keyring
@@ -100,17 +99,22 @@ Task-Seeds: desktop-share core-gtk
 
  * system-config-printer-gnome
 
-== Low level system plumbery ==
+== Packages and upgrade management ==
 
  * synaptic                         # for our purposes, it's plumbing ...
+ * gdebi
  * software-properties-gtk          # Nice GUI to change reporsitory settings / extra drivers
  * update-notifier 	                # For crash report and updates notifications
  * ubuntu-release-upgrader-gtk      # For upgrade of L/Ubuntu releases. 
  * lubuntu-software-center
 
+== Input method ==
+
  * fcitx-config-gtk2
  * fcitx-frontend-gtk2
  * fcitx-ui-classic
+
+== Bug Report ==
 
  * apport-gtk                       # support for ubuntu-bug command
 
