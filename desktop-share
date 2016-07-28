@@ -114,8 +114,6 @@ Task-Seeds: core-share
 
  * anacron                          # generally appropriate for desktops
 
- * python3-aptdaemon.pkcompat       # preferred packagekit-system-interface alternative so that we don't end up with packagekit instead
-
 == Specific ==
 
  * apmd [armel]
