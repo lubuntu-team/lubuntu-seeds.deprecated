@@ -38,10 +38,6 @@ Task-Seeds: desktop-share core-qt
  * transmission-qt
  * quassel
 
-== Network ==
-
- * cmst
-
 == Multimedia ==
 
  * smplayer
