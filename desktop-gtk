@@ -38,7 +38,7 @@ Task-Seeds: desktop-share core-gtk
  * sylpheed-plugins [!powerpc]
  * sylpheed-doc [!powerpc]
  * pidgin
- * transmission
+ * transmission-gtk
 
 
 == Multimedia ==
