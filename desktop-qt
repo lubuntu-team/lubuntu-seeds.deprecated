@@ -78,7 +78,7 @@ Task-Seeds: desktop-share core-qt
 
 # Packages management
  * muon
- * muon-discover
+ * plasma-discover
 
  * software-properties-kde          # Nice GUI to change reporsitory settings / extra drivers
  * ubuntu-release-upgrader-qt
