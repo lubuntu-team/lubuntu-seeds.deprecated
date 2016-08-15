@@ -80,6 +80,7 @@ Task-Seeds: desktop-share core-gtk
 
  * indicator-application-gtk2       # Add indicator icons in notification area by default,
                                     # to workaroud bugs in fallback mode
+ * indicator-sound-gtk2             # SOund menu indicator with pulseaudio
 
  * usb-creator-gtk                  # Adding utility to make USB bootable
 
