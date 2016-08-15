@@ -65,7 +65,6 @@ Task-Seeds: desktop-share core-qt
  * obconf-qt
  * qlipper
  * qtpass
- * kscreen                          # Required for lxqt-config's Monitor Settings to work
 
 == Office ==
 
@@ -79,7 +78,7 @@ Task-Seeds: desktop-share core-qt
 
 # Packages management
  * muon
- * muon-discover
+ * plasma-discover
 
  * software-properties-kde          # Nice GUI to change reporsitory settings / extra drivers
  * ubuntu-release-upgrader-qt
