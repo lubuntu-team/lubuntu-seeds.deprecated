@@ -1,4 +1,4 @@
-include platform.yakkety
+include platform.zesty
 feature no-follow-recommends
 core: core-gtk core-share
 core-gtk: core-share
