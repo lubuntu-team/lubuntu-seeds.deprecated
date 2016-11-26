@@ -28,6 +28,8 @@ Task-Seeds: desktop-share core-gtk
  * lxpanel-indicator-applet-plugin
  * lxsession-logout
  * lxsession-default-apps
+ * lxhotkey-gtk
+ * lxhotkey-plugin-openbox
 
 == Internet ==
 
