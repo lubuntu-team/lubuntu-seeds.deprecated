@@ -83,7 +83,7 @@ Task-Seeds: desktop-share core-gtk
 
  * indicator-application-gtk2       # Add indicator icons in notification area by default,
                                     # to workaroud bugs in fallback mode
- * indicator-sound-gtk2             # SOund menu indicator with pulseaudio
+ * indicator-sound-gtk2             # Sound menu indicator with pulseaudio
 
  * usb-creator-gtk                  # Adding utility to make USB bootable
 
@@ -101,14 +101,14 @@ Task-Seeds: desktop-share core-gtk
 
 == Printing ==
 
- * system-config-printer-gnome
+ * system-config-printer
 
 == Packages and upgrade management ==
 
  * gnome-software                   # GTK Software Center
  * synaptic                         # for our purposes, it's plumbing ...
  * software-properties-gtk          # Nice GUI to change reporsitory settings / extra drivers
- * update-notifier 	                # For crash report and updates notifications
+ * update-notifier                  # For crash report and updates notifications
  * ubuntu-release-upgrader-gtk      # For upgrade of L/Ubuntu releases. 
 
 == Input method ==
