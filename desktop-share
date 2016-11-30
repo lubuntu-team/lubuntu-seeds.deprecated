@@ -83,7 +83,6 @@ Task-Seeds: core-share
 
 == Low level system plumbery ==
 
- * pm-utils                         # Add to support suspend in some case.
  * acpi-support
  * laptop-detect
  * update-notifier 	                # For crash report and updates notifications
