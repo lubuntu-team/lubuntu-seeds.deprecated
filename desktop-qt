@@ -52,7 +52,7 @@ Task-Seeds: desktop-share core-qt
  * juffed
  * noblenote
  * xarchiver
- * screengrap
+ * screengrab
  * nomacs                           # Edit image capability, instead of lximage-qt
 
 == Desktopish tools which we do need ==
