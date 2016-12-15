@@ -40,7 +40,7 @@
 == Installer ==
 
  * bootstrap-base
- * grub # needed for dmraid et al
+ * grub2 # needed for dmraid et al
  * oem-config-gtk
  * uboot-mkimage [armel]
  * makedev                  # Necessary for deboostrap when building alternate
