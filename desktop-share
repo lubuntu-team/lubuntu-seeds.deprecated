@@ -41,7 +41,6 @@ Task-Seeds: core-share
 
 == Printing ==
 
- * cups-driver-gutenprint
  * cups                             # our preferred printer management infrastructure
  * cups-bsd                         # gives us lpc, lpq, lpr, lprm
  * cups-client                      # gives us cancel, cupstestppd, lp, lpoptions, lppasswd, lpstat, cupsaddsmb, accept, lpadmin, lpinfo, lpmove
@@ -59,6 +58,7 @@ Task-Seeds: core-share
  * printer-driver-ptouch            # support for Brother P-touch printers
  * printer-driver-sag-gdi           # support for Rico Aficio SPxxxx printers
  * printer-driver-brlaser           # support for some Brother laser printers
+ * printer-driver-gutenprint        # Previously cups-driver-gutenprint
 
 == Sound ==
 
