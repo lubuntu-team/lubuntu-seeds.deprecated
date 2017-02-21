@@ -6,6 +6,7 @@
 
  * ssh
  * nfs-kernel-server        # need an NFS server
+ * net-tools                # Needed for deboostrap, when building alternate ISO.
 
 == Networking ==
 
