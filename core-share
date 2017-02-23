@@ -31,4 +31,5 @@ Task-Name: lubuntu-core-share
 
  * xserver-xorg-video-all           # Depend on the driver-all packages, xorg doesn't provide them
  * xserver-xorg-input-all           # and desktop-common seed only recommend them. LP: #1441843
+ * xserver-xorg-input-synaptics     # x-x-input-all only Recommends; LP: #1667128
  * xserver-xorg-video-intel         # Not installed by default, better for old Intel cards
