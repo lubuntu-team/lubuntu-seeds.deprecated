@@ -97,7 +97,7 @@ Task-Seeds: desktop-share core-gtk
 
 == Networking ==
 
- * network-manager-gnome
+ * dhcpcd-gtk
 
 == Printing ==
 
