@@ -45,7 +45,7 @@ Task-Seeds: desktop-share core-gtk
 
 == Multimedia ==
 
- * gnome-mplayer
+ * gnome-mpv
  * audacious
  * pavucontrol                      # Audio settings for pulseaudio
 
