@@ -2,8 +2,8 @@ Task-Per-Derivative: 1
 Task-Section: user
 Task-Description: Lubuntu minimal installation (shared pacakges)
 Task-Extended-Description: This task provides shared packages for minimal installation of Lubuntu.
-Task-Key: lubuntu-core-share
-Task-Name: lubuntu-core-share
+Task-Key: core-share
+Task-Name: core-share
 
  * Feature: no-follow-recommends
 
