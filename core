@@ -5,7 +5,7 @@ Task-Extended-Description: This task provides minimal packages for Lubuntu (Ubun
 Task-Key: lubuntu-core
 Task-Name: lubuntu-core
 Task-Metapackage: lubuntu-core
-Task-Seeds: lubuntu-core-gtk core-share
+Task-Seeds: lubuntu-gtk-core core-share
 
  * Feature: no-follow-recommends
 
