@@ -9,6 +9,10 @@ Task-Seeds: desktop-share core-qt
 
  * Feature: no-follow-recommends
 
+== Default seeds ==
+ 
+ * lubuntu-qt-core
+
 = Lubuntu =
 
  * qlubuntu-default-session

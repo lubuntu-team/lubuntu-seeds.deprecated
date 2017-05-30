@@ -8,6 +8,10 @@ Task-Metapackage: lubuntu-gtk-desktop
 Task-Seeds: desktop-share core-gtk
 
  * Feature: no-follow-recommends
+
+== Default seeds ==
+ 
+ * lubuntu-gtk-core
  
 = Lubuntu =
 
@@ -123,7 +127,7 @@ Task-Seeds: desktop-share core-gtk
 
 
 == Other ==
- * lubuntu-desktop-gtk              # metapackage for everything here
+ * lubuntu-gtk-desktop              # metapackage for everything here
 
 == Removed ==
 # * apturl # Remove, pulling webkit2 stack

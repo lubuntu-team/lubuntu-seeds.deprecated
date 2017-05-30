@@ -8,6 +8,10 @@ Task-Seeds: core-share
 
  * Feature: no-follow-recommends
 
+== Default seeds ==
+ 
+ * lubuntu-core
+
 == LXDE / LXQt common components ==
 
  * libfm-modules
