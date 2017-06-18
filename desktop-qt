@@ -33,9 +33,6 @@ Task-Seeds: desktop-share core-qt
  * lxqt-sudo
  * qps
 
- * libqt5svg5                       # Force svg support for Qt
-
-
 == Internet ==
 
  * qupzilla

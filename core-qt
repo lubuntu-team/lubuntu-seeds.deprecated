@@ -17,6 +17,8 @@ Task-Seeds: core-share
  * lxqt-session
  * qterminal
 
+ * libqt5svg5                       # Force svg support for Qt
+
 = Display manager =
  * sddm
  * sddm-theme-lubuntu-chooser
