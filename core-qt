@@ -18,6 +18,7 @@ Task-Seeds: core-share
  * qterminal
 
  * libqt5svg5                       # Force svg support for Qt
+ * oxygen-icon-theme                # Default LXQt settings need it
 
 = Display manager =
  * sddm
