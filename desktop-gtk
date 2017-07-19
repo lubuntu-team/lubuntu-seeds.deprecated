@@ -71,7 +71,6 @@ Task-Seeds: desktop-share core-gtk
  * libgtk2-perl                     # Add GTK interface for synaptic (LP: #926581)
 
  * gnome-system-tools
- * gnome-time-admin                 # Support for time configuration.
 
  * xfce4-power-manager
  * xfce4-power-manager-plugins      # Support for lxpanel plugin
