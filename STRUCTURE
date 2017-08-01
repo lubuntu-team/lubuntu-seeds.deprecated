@@ -1,6 +1,6 @@
 include platform.artful
 feature no-follow-recommends
-core: core-gtk core-share
+core: core-share
 core-gtk: core-share
 core-qt: core-share
 core-share: standard
