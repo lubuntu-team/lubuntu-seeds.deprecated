@@ -88,7 +88,8 @@ Task-Seeds: desktop-share core-qt
  * fcitx-frontend-qt5
  * fcitx-ui-qimpanel
 
- * dhcpcd-qt
+ * network-manager
+ * network-manager-gnome            # We need to use this for now until we have a stable Qt network-manager frontend.
 
 == Other ==
  * lubuntu-qt-desktop               # metapackage for everything here
