@@ -34,6 +34,7 @@ Task-Seeds: desktop-share core-gtk
  * lxsession-default-apps
  * lxhotkey-gtk
  * lxhotkey-plugin-openbox
+ * lxpolkit                         # This needs to be explicitly defined so lxqt-policykit isn't installed.
 
 == Internet ==
 
