@@ -10,7 +10,7 @@ Task-Seeds: desktop-share core-qt
  * Feature: no-follow-recommends
 
 == Default seeds ==
- 
+
  * lubuntu-qt-core
 
 = Lubuntu =
@@ -48,7 +48,7 @@ Task-Seeds: desktop-share core-qt
  * calibre
  * pavucontrol-qt
 
-== Accessories == 
+== Accessories ==
 
  * 2048-qt
  * juffed
@@ -67,6 +67,7 @@ Task-Seeds: desktop-share core-qt
  * obconf-qt
  * qlipper
  * qtpass
+ * qttranslations5-l10n             # Needed for proper translations support
 
 == Office ==
 
