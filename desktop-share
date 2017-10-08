@@ -85,16 +85,13 @@ Task-Seeds: core-share
 
  * acpi-support
  * laptop-detect
- * update-notifier 	                # For crash report and updates notifications
+ * update-notifier                  # For crash report and updates notifications
  * ubuntu-drivers-common            # Make it harder to remove detection support, LP#704597
  * policykit-desktop-privileges     # passwordless disk/CPU speed/time operations for admins
  * libpam-systemd                   # logind, cross desktop compatibility 
  * x11-utils
  * whoopsie                         # LP: 1001630
  * kerneloops-daemon                # watch for and allow reporting of kernel problems
-
- * fonts-noto-cjk                   # Extra font to display asian characters
- * fonts-nanum                      # LP: #1437875 
 
  * pcmciautils                      # PCMCIA support for >= 2.6.13-rc1 kernels
  * inputattach                      # needed for serial mice
